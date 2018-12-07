@@ -24,6 +24,9 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20181207111911.1" a="E"><vh>20181207</vh>
+<v t="leo.20181207111911.2"><vh>投影片快捷鍵</vh></v>
+</v>
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -124,15 +127,15 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">## 2018Fall 分組網際簡報
+<t tx="leo.20180827201621.10">## 2018Fall 期末分組 第四組簡報
 
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
+Created by [ag4](https://github.com/mdecadp2018/finalproject-ag4)
 &lt;/small&gt;
 
-[2018 Fall 分組網誌](./../blog/index.html)
+[網站](https://mdecadp2018.github.io/finalproject-ag4/content/index.html)
 
 
 </t>
@@ -325,6 +328,25 @@ make.start()
 
 
 						
+</t>
+<t tx="leo.20181207111911.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181207111911.2"># 20181207組員工作
+
+* 40623109 李如芳 利用Onshape繪製[3D列印機](https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/7d9c6197c4cc7d6fa00fd6eb)
+* 40623124 葉修宏 利用Onshape繪製[3D列印機](https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/7d9c6197c4cc7d6fa00fd6eb)
+* 40623127 張育偉 利用Onshape繪製[3D列印機](https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/7d9c6197c4cc7d6fa00fd6eb)
+* 40623128 張華倞 利用pandoc製作[pdf](https://github.com/mdecadp2018/finalproject-ag4/blob/gh-pages/finalreport/report/pdf/report.pdf)
+* 40623130 陳鉅忠 [研究V-rep的使用](https://mdecadp2018.github.io/finalproject-ag4/content/Test.html)
+* 40623154 黃馨慧  利用Onshape繪製[3D列印機](https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/7d9c6197c4cc7d6fa00fd6eb)
+
 </t>
 </tnodes>
 </leo_file>
