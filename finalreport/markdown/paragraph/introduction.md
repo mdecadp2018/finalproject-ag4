@@ -1,10 +1,6 @@
-Introduction
+前言
 ===
 
-Introductions ...
+電腦輔助設計實習期末報告前言
 
-\
 
-一個範例數學式：$$\beta=\cos^{-1}{\frac{L0^{2}+d_{AB}^{2}-R0^{2}}{2\times{L0\times{d_{AB}}}}}$$
-
-\
