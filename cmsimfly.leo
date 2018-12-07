@@ -1918,7 +1918,7 @@ def send_static():
     outstring = '''&lt;!doctype html&gt;
 &lt;html&gt;&lt;head&gt;
 &lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
-&lt;title&gt;期末分組專案&lt;/title&gt; \
+&lt;title&gt;CADP 第四組 期末分組網站&lt;/title&gt; \
 &lt;link rel="stylesheet" type="text/css" href="/static/cmsimply.css"&gt;
 ''' + syntaxhighlight()
 
@@ -1970,7 +1970,7 @@ window.location= 'https://' + location.host + location.pathname + location.searc
     outstring = '''&lt;!doctype html&gt;
 &lt;html&gt;&lt;head&gt;
 &lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
-&lt;title&gt;期末分組專案&lt;/title&gt; \
+&lt;title&gt;CADP 第四組 期末分組網站&lt;/title&gt; \
 &lt;link rel="stylesheet" type="text/css" href="/static/cmsimply.css"&gt;
 ''' + syntaxhighlight()
 
@@ -2028,7 +2028,7 @@ window.location= 'https://' + location.host + location.pathname + location.searc
     outstring = '''&lt;!doctype html&gt;
 &lt;html&gt;&lt;head&gt;
 &lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
-&lt;title&gt;期末分組專案&lt;/title&gt; \
+&lt;title&gt;CADP 第四組 期末分組網站&lt;/title&gt; \
 &lt;link rel="stylesheet" type="text/css" href="./../static/cmsimply.css"&gt;
 ''' + syntaxhighlight2()
 
