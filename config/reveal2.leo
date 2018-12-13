@@ -15,7 +15,7 @@
 </v>
 <v t="leo.20180827201621.1" a="E"><vh>編輯 reveal</vh>
 <v t="leo.20180827201621.2" a="E"><vh>@path ./../reveal</vh>
-<v t="leo.20180827201621.3" a="E"><vh>@clean index.html</vh>
+<v t="leo.20180827201621.3" a="E"><vh>@clean index2.html</vh>
 <v t="leo.20180827201621.4" a="E"><vh>html</vh>
 <v t="leo.20180827201621.5"><vh>head</vh></v>
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
@@ -24,13 +24,56 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181207111911.1" a="E"><vh>20181207</vh>
-<v t="leo.20181207111911.2"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20181213213640.1" a="E"><vh>20181207</vh>
+<v t="leo.20181213213640.2" a="E"><vh>簡介</vh>
+<v t="leo.20181213213640.3"><vh>內容</vh></v>
+</v>
+<v t="leo.20181213213640.4"><vh>李如芳</vh>
+<v t="leo.20181213213640.5"><vh>內容</vh></v>
+</v>
+<v t="leo.20181213213640.6"><vh>葉修宏</vh>
+<v t="leo.20181213213640.7"><vh>內容</vh></v>
+</v>
+<v t="leo.20181213214055.1"><vh>張育偉</vh>
+<v t="leo.20181213214055.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20181213214057.1"><vh>張華倞</vh>
+<v t="leo.20181213214057.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20181213214059.1"><vh>陳鉅忠</vh>
+<v t="leo.20181213214059.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20181213214104.1"><vh>黃馨慧</vh>
+<v t="leo.20181213214104.2"><vh>內容</vh></v>
+</v>
+</v>
+<v t="leo.20181213215941.1" a="E"><vh>20181213</vh>
+<v t="leo.20181213215941.2" a="E"><vh>簡介</vh>
+<v t="leo.20181213215941.3"><vh>內容</vh></v>
+</v>
+<v t="leo.20181213215941.4" a="E"><vh>李如芳</vh>
+<v t="leo.20181213215941.5"><vh>內容</vh></v>
+</v>
+<v t="leo.20181213215941.6" a="E"><vh>葉修宏</vh>
+<v t="leo.20181213215941.7"><vh>內容</vh></v>
+</v>
+<v t="leo.20181213215941.8" a="E"><vh>張育偉</vh>
+<v t="leo.20181213215941.9"><vh>內容</vh></v>
+</v>
+<v t="leo.20181213215941.10" a="E"><vh>張華倞</vh>
+<v t="leo.20181213215941.11"><vh>內容</vh></v>
+</v>
+<v t="leo.20181213215941.12" a="E"><vh>陳鉅忠</vh>
+<v t="leo.20181213215941.13"><vh>內容</vh></v>
+</v>
+<v t="leo.20181213215941.14" a="E"><vh>黃馨慧</vh>
+<v t="leo.20181213215941.15"><vh>內容</vh></v>
+</v>
 </v>
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
+<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
@@ -329,7 +372,48 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181207111911.1">&lt;section data-markdown&gt;
+<t tx="leo.20181213213640.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20181213213640.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181213213640.3"># 20181207各組員工作
+
+* 40623109 [李如芳](./index2.html#/1/1)
+* 40623124 [葉修宏](./index2.html#/1/2)
+* 40623127 [張育偉](./index2.html#/1/3)
+* 40623128 [張華倞](./index2.html#/1/4)
+* 40623130 [陳鉅忠](./index2.html#/1/5)
+* 40623154 [黃馨慧](./index2.html#/1/6)
+</t>
+<t tx="leo.20181213213640.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181213213640.5">## 40623109 李如芳
+* 利用Onshape繪製[3D列印機](https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/7d9c6197c4cc7d6fa00fd6eb)
+
+[回頂頁](./index2.html#/1)
+</t>
+<t tx="leo.20181213213640.6">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -338,15 +422,184 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181207111911.2"># 20181207組員工作
+<t tx="leo.20181213213640.7">## 40623124 葉修宏
 
-* 40623109 李如芳 利用Onshape繪製[3D列印機](https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/7d9c6197c4cc7d6fa00fd6eb)
-* 40623124 葉修宏 利用Onshape繪製[3D列印機](https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/7d9c6197c4cc7d6fa00fd6eb)
-* 40623127 張育偉 利用Onshape繪製[3D列印機](https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/7d9c6197c4cc7d6fa00fd6eb)
-* 40623128 張華倞 利用pandoc製作[pdf](https://github.com/mdecadp2018/finalproject-ag4/blob/gh-pages/finalreport/report/pdf/report.pdf)
-* 40623130 陳鉅忠 [研究V-rep的使用](https://mdecadp2018.github.io/finalproject-ag4/content/Test.html)
-* 40623154 黃馨慧  利用Onshape繪製[3D列印機](https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/7d9c6197c4cc7d6fa00fd6eb)
+* 利用Onshape繪製[3D列印機](https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/7d9c6197c4cc7d6fa00fd6eb)
 
+[回頂頁](./index2.html#/1)</t>
+<t tx="leo.20181213214055.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181213214055.2">## 40623127 張育偉
+
+* 利用Onshape繪製[3D列印機](https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/7d9c6197c4cc7d6fa00fd6eb)
+
+[回頂頁](./index2.html#/1)
+</t>
+<t tx="leo.20181213214057.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181213214057.2">## 40623128 張華倞
+
+* 利用pandoc製作[pdf](https://mdecadp2018.github.io/finalproject-ag4/finalreport/pdf/report.pdf)
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/LRsCbXrytPM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+[回頂頁](./index2.html#/1)</t>
+<t tx="leo.20181213214059.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181213214059.2">## 40623130 陳鉅忠
+
+* [研究V-rep的使用](https://mdecadp2018.github.io/finalproject-ag4/content/Test.html)
+
+[回頂頁](./index2.html#/1)</t>
+<t tx="leo.20181213214104.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181213214104.2">## 40623154 黃馨慧
+
+* 利用Onshape繪製[3D列印機](https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/7d9c6197c4cc7d6fa00fd6eb)
+
+[回頂頁](./index2.html#/1)
+</t>
+<t tx="leo.20181213215941.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20181213215941.10">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181213215941.11">## 40623128 張華倞
+
+
+
+[回頂頁](./index2.html#/2)</t>
+<t tx="leo.20181213215941.12">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181213215941.13">## 40623130 陳鉅忠
+
+
+
+[回頂頁](./index2.html#/2)</t>
+<t tx="leo.20181213215941.14">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181213215941.15">## 40623154 黃馨慧
+
+
+
+[回頂頁](./index2.html#/2)
+</t>
+<t tx="leo.20181213215941.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181213215941.3"># 20181213各組員工作
+
+* 40623109 [李如芳](./index2.html#/2/1)
+* 40623124 [葉修宏](./index2.html#/2/2)
+* 40623127 [張育偉](./index2.html#/2/3)
+* 40623128 [張華倞](./index2.html#/2/4)
+* 40623130 [陳鉅忠](./index2.html#/2/5)
+* 40623154 [黃馨慧](./index2.html#/2/6)
+</t>
+<t tx="leo.20181213215941.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181213215941.5">## 40623109 李如芳
+
+
+
+[回頂頁](./index2.html#/2)
+</t>
+<t tx="leo.20181213215941.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181213215941.7">## 40623124 葉修宏
+
+
+
+[回頂頁](./index2.html#/2)</t>
+<t tx="leo.20181213215941.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181213215941.9">## 40623127 張育偉
+
+
+
+[回頂頁](./index2.html#/2)
 </t>
 </tnodes>
 </leo_file>
