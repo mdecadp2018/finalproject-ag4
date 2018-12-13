@@ -18,19 +18,13 @@ date: '2018.12.07'
 
 ---
 abstract: |
-    Fossil SCM
+    列印機使用材料
     
-    github
+    列印機外觀
     
-    簡易python 語法
+    V-rep模擬
     
-    網路自我診斷
-    
-    免費開源軟體錄影
-    
-    計算機程式語法
-    
-    使用網路表單 Ethercalc 彙整所學
+    Onshape自訂義功能-蜂巢填充
     
 ---
 
