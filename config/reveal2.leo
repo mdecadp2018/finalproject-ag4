@@ -675,7 +675,10 @@ make.start()
 </t>
 <t tx="leo.20181224194052.11">## 40623128 張華倞
 
+六角填充功能[表單製作](https://mdecadp2018.github.io/site-40623128/content/%E8%A1%A8%E5%96%AE.html)
 
+繪製組合圖
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/TppaRIBq2FE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 [回頂頁](./index2.html#/3)
 
