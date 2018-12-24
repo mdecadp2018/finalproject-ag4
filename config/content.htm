@@ -29,7 +29,7 @@
 <p>實際例子</p>
 <p><img alt="" height="219" src="/images/p37_09-55-32.png" width="220"/></p>
 <p><img alt="" height="613" src="/images/p37_09-55-50.png" width="892"/></p>
-<p>以下程式為Onshape提供的<a href="https://cad.onshape.com/documents/5729ffb4e4b077d8431a8cea/v/bba4125ec64df8c43c6e876c/e/8cb802c1a9080d5481747743#_ga=2.216851218.540912582.1545355199-1833488504.1545355199">Hex InFill</a> FeatureScript原始碼經過中問註解，協助了解程式架構以便更改程式。</p>
+<p>以下程式為Onshape提供的<a href="https://cad.onshape.com/documents/5729ffb4e4b077d8431a8cea/v/bba4125ec64df8c43c6e876c/e/8cb802c1a9080d5481747743#_ga=2.216851218.540912582.1545355199-1833488504.1545355199">Hex InFill</a> FeatureScript原始碼經過中文註解，協助了解程式架構以便改寫程式。</p>
 <p></p>
 <pre class="brush:js;auto-links:false;toolbar:false;tab-size:5" contenteditable="false">FeatureScript 336;
 import(path : "onshape/std/geometry.fs", version : "336.0");
@@ -229,8 +229,13 @@ export const HexInfill = defineFeature(function(context is Context, id is Id, de
 //-----------------
 </pre>
 <p>1</p>
-<h3>參考資料</h3>
-<p><span>Onshape Featurescript:</span><br/><a href="https://www.onshape.com/features/custom-features" rel="nofollow">https://www.onshape.com/features/custom-features</a><br/><span>內建功能原始碼:</span><br/><a href="https://cad.onshape.com/documents/12312312345abcabcabcdeff" rel="nofollow">https://cad.onshape.com/documents/12312312345abcabcabcdeff</a><br/><span>教學:</span><br/><a href="https://cad.onshape.com/FsDoc/index.html" rel="nofollow">https://cad.onshape.com/FsDoc/index.html</a><br/><a href="https://cadlab.mde.tw/post/tag/featurescript.html" rel="nofollow">https://cadlab.mde.tw/post/tag/featurescript.html</a><br/><span>蜂巢填充:</span><br/><a href="https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/d54e2d4096642b5acf95c1f7" rel="nofollow">https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/d54e2d4096642b5acf95c1f7</a></p><h1>Fusion 360</h1>
+<h3>六角填充外力版本</h3>
+<p>利用外力、材料強度、安全係數等參數自動繪製內六角填充，</p>
+<p>因為3D列印機如果列印實心的，所花時間遠比空心多很多，</p>
+<p>但空心的遇到外力又容易破裂，因此內部才會填充六角型。</p><h3>參考資料</h3>
+<p><span>Onshape Featurescript:</span><br/><a href="https://www.onshape.com/features/custom-features" rel="nofollow">https://www.onshape.com/features/custom-features</a><br/><span>內建功能原始碼:</span><br/><a href="https://cad.onshape.com/documents/12312312345abcabcabcdeff" rel="nofollow">https://cad.onshape.com/documents/12312312345abcabcabcdeff</a><br/><span>教學:</span><br/><a href="https://cad.onshape.com/FsDoc/index.html" rel="nofollow">https://cad.onshape.com/FsDoc/index.html</a><br/><a href="https://cadlab.mde.tw/post/tag/featurescript.html" rel="nofollow">https://cadlab.mde.tw/post/tag/featurescript.html</a><br/><span>蜂巢填充:</span><br/><a href="https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/d54e2d4096642b5acf95c1f7" rel="nofollow">https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/d54e2d4096642b5acf95c1f7</a></p>
+<p>受力狀況:</p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0020768313002205#e0030">https://www.sciencedirect.com/science/article/pii/S0020768313002205#e0030</a></p><h1>Fusion 360</h1>
 <p><img alt="" height="205" src="/images/fusion-360.png" width="476"/></p>
 <p><a href="https://www.autodesk.com/products/fusion-360/students-teachers-educators">https://www.autodesk.com/products/fusion-360/students-teachers-educators</a><span> </span></p>
 <p></p>
@@ -306,6 +311,7 @@ export const HexInfill = defineFeature(function(context is Context, id is Id, de
 <p>40623124:</p>
 <p>40623127:</p>
 <p>40623128:</p>
+<p>付出多少就拿多少，這十分的公平，你付出的多分數自然就高，因此記錄下自己做了什麼事情就顯得十分重要，雖然多花了點時間建立pdf檔，但付出一定有收穫，可以清楚的知道誰做了什麼，期末也可以知道誰付出的多，以便我們替其他人評分。</p>
 <p>40623130:</p>
 <p>為什麼要改版 ? (1) 增加功能 (2) 修改錯誤 那為什麼要有版本紀錄 ? (1) 看誰有做事 (2) 可以還原 (3) 查看細節的更動，當老師說完這句話時，我只明白老師一直在提醒我們要做事不然可能會被當掉阿之類的，V-rep部分基本操作都練時過了，目前就剩整理PDF檔和等其他組員畫完及組合完我們的題目，我就可以開始做了~希望快點完成。</p>
 <p>40623154:</p><h1>Final Report</h1>
