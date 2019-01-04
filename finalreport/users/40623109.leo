@@ -25,7 +25,7 @@
 <v t="leo1.20171221091031.2"><vh>@edit reference.md</vh></v>
 <v t="leo1.20171221091031.3"><vh>@edit refer.bib</vh></v>
 <v t="leo1.20171221091031.4" a="E"><vh>封面以及摘要</vh>
-<v t="leo1.20171221091031.5" a="E"><vh>@clean cover_and_abstract.md</vh>
+<v t="leo1.20171221091031.5"><vh>@clean cover_and_abstract.md</vh>
 <v t="leo1.20171221091031.6"><vh>摘要</vh></v>
 </v>
 </v>
@@ -515,35 +515,72 @@ g.es('-'*12)</t>
 <t tx="leo1.20171221090954.1"></t>
 <t tx="leo1.20171221091031.1"></t>
 <t tx="leo1.20171221091031.10">
+
 </t>
-<t tx="leo1.20171221091031.11">可攜程式系統介紹
+<t tx="leo1.20171221091031.11">列印機使用材料
 ===
 
-可攜程式系統介紹
+列印機使用材料介紹
+
+
+腳輪:[https://tw.misumi-ec.com/vona2/detail/110300477340/?CategorySpec=00000289437%3a%3ab](https://tw.misumi-ec.com/vona2/detail/110300477340/?CategorySpec=00000289437%3a%3ab)
+
+螺母座:[https://detail.1688.com/offer/571855775654.html?spm=a261b.8768355.pic-list.2.1e3d3497zPcLbw&amp;tracelog=p4p&amp;clickid=139b6690be264b53b021d52477db9963&amp;sessionid=9118ee9464b334d9b43d53e1dad425dc](https://detail.1688.com/offer/571855775654.html?spm=a261b.8768355.pic-list.2.1e3d3497zPcLbw&amp;tracelog=p4p&amp;clickid=139b6690be264b53b021d52477db9963&amp;sessionid=9118ee9464b334d9b43d53e1dad425dc)
+
+42部馬達支架:[https://world.taobao.com/item/565887733989.htm?spm=a21wu.10013406-tw.0.0.5ddfd7fcv0k9Tl](https://world.taobao.com/item/565887733989.htm?spm=a21wu.10013406-tw.0.0.5ddfd7fcv0k9Tl)
+
+新 - 腳輪:[https://tw.misumi-ec.com/vona2/detail/110300511370/](https://tw.misumi-ec.com/vona2/detail/110300511370/)
+
+光軸滑塊:[https://world.taobao.com/item/14495101210.htm?spm=a21wu.10013406-tw.0.0.5df37e2bIirEth](https://world.taobao.com/item/14495101210.htm?spm=a21wu.10013406-tw.0.0.5df37e2bIirEth)
+
+噴頭:[https://world.taobao.com/item/560317882313.htm?spm=a21wu.10013406-tw.0.0.1da65c76OUnpUi](https://world.taobao.com/item/560317882313.htm?spm=a21wu.10013406-tw.0.0.1da65c76OUnpUi)
+
+[https://world.taobao.com/item/520431331861.htm?spm=a21wu.10013406-tw.0.0.1da65c76OUnpUi](https://world.taobao.com/item/520431331861.htm?spm=a21wu.10013406-tw.0.0.1da65c76OUnpUi)
+
+噴嘴:[https://item.taobao.com/item.htm?id=527963597624&amp;ali_refid=a3_430750_1006:1122639050:N:3d%E6%89%93%E5%8D%B0%E6%9C%BA%E5%96%B7%E5%98%B4:0cb031b1a129ead4961146ee1ff7099b&amp;ali_trackid=1_0cb031b1a129ead4961146ee1ff7099b&amp;spm=a21wu.10013406-tw.0.0](https://item.taobao.com/item.htm?id=527963597624&amp;ali_refid=a3_430750_1006:1122639050:N:3d%E6%89%93%E5%8D%B0%E6%9C%BA%E5%96%B7%E5%98%B4:0cb031b1a129ead4961146ee1ff7099b&amp;ali_trackid=1_0cb031b1a129ead4961146ee1ff7099b&amp;spm=a21wu.10013406-tw.0.0)
+
+惰輪固定座:[https://goods.ruten.com.tw/item/show?21613312248418#info](https://goods.ruten.com.tw/item/show?21613312248418#info)
+
+風扇:[https://tw.bid.yahoo.com/item/%E3%80%90%E5%85%A8%E5%86%A0%E3%80%91ADDA-9-2%E5%85%AC%E5%88%86%E9%A2%A8%E6%89%87-9-2-9-2-3-8%E5%85%AC%E5%88%8624V0-7A-2%E7%B7%9A-100518089635](https://tw.bid.yahoo.com/item/%E3%80%90%E5%85%A8%E5%86%A0%E3%80%91ADDA-9-2%E5%85%AC%E5%88%86%E9%A2%A8%E6%89%87-9-2-9-2-3-8%E5%85%AC%E5%88%8624V0-7A-2%E7%B7%9A-100518089635)
+
+同步輪:[http://www.ciguang.com/productsd/tid14/pid59.html](http://www.ciguang.com/productsd/tid14/pid59.html)
+
+[https://item.taobao.com/item.htm?id=7088047896&amp;scm=20140651.199.TW.973002450_7088047896&amp;gclid=EAIaIQobChMIyOLR8Kue3wIV2qmWCh3gHAHUEAQYASABEgIT_PD_BwE](https://item.taobao.com/item.htm?id=7088047896&amp;scm=20140651.199.TW.973002450_7088047896&amp;gclid=EAIaIQobChMIyOLR8Kue3wIV2qmWCh3gHAHUEAQYASABEgIT_PD_BwE)
+
+軸座:[https://world.taobao.com/item/521011557898.htm?spm=a21wu.10013406-tw.0.0.572c2d3e6k8ZWK](https://world.taobao.com/item/521011557898.htm?spm=a21wu.10013406-tw.0.0.572c2d3e6k8ZWK)
+
+
+
+
+
+
+
+
+
 
 @others
 </t>
 <t tx="leo1.20171221091031.12"></t>
-<t tx="leo1.20171221091031.13">Python 程式語法
+<t tx="leo1.20171221091031.13">列印機外觀
 ===
 
-Python 程式語法
+列印機外觀
 
 @others
 </t>
 <t tx="leo1.20171221091031.14"></t>
-<t tx="leo1.20171221091031.15"> PyQt5 簡介
+<t tx="leo1.20171221091031.15"> V-rep模擬
 ===
+再模擬主機前先試著使用V-rep這套軟體[PDF](https://mdecadp2018.github.io/site-40623130/finalreport/pdf/report.pdf)
 
-說明 PyQt5 基本架構與程式開發流程
-
+![First](./images/vrep/1.png "First-step"){width=300px height=300px}
+圖形導入成功
 @others
 </t>
 <t tx="leo1.20171221091031.16"></t>
-<t tx="leo1.20171221091031.17">Calculator 程式
+<t tx="leo1.20171221091031.17">Onshape自訂義功能-蜂巢填充
 ===
 
-Calculator 程式細部說明
 
 @others
 </t>
@@ -569,7 +606,9 @@ Calculator 程式細部說明
 
 附錄內容
 
-@others</t>
+
+@others
+</t>
 <t tx="leo1.20171221091031.24"></t>
 <t tx="leo1.20171221091031.4"></t>
 <t tx="leo1.20171221091031.5">---
@@ -594,19 +633,13 @@ date: '2018.12.07'
 </t>
 <t tx="leo1.20171221091031.6">---
 abstract: |
-    Fossil SCM
+    列印機使用材料
     
-    github
+    列印機外觀介紹
     
-    簡易python 語法
+    V-rep模擬
     
-    網路自我診斷
-    
-    免費開源軟體錄影
-    
-    計算機程式語法
-    
-    使用網路表單 Ethercalc 彙整所學
+    Onshape自訂義功能-蜂巢填充
     
 ---
 
@@ -617,7 +650,9 @@ abstract: |
 <t tx="leo1.20171221091031.9">前言
 ===
 
-電腦輔助設計實習期末報告前言
+  3D列印機對於一個設計者而言是一樣很重要工具，可以大量縮短製程時間，但往往買一台的價格太過昂貴，因此我們決定製作一台自組3D列印機，大小可以依照個人需求更改，且自行組裝過程可以學習到許多東西，其中包括機構設計、電路分析、程式設計等等。
+
+  我們最終目標為人人皆可以自行組裝一台低成本的3D列印機。
 
 @others
 </t>
