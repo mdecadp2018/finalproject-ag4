@@ -47,7 +47,7 @@
 <v t="leo.20181213214104.2"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20181213215941.1" a="E"><vh>20181214</vh>
+<v t="leo.20181213215941.1"><vh>20181214</vh>
 <v t="leo.20181213215941.2"><vh>簡介</vh>
 <v t="leo.20181213215941.3"><vh>內容</vh></v>
 </v>
@@ -70,7 +70,7 @@
 <v t="leo.20181213215941.15"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20181224194052.1" a="E"><vh>20181221</vh>
+<v t="leo.20181224194052.1"><vh>20181221</vh>
 <v t="leo.20181224194052.2" a="E"><vh>簡介</vh>
 <v t="leo.20181224194052.3"><vh>內容</vh></v>
 </v>
@@ -93,7 +93,7 @@
 <v t="leo.20181224194052.15"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20181224194206.1" a="E"><vh>20181228</vh>
+<v t="leo.20181224194206.1"><vh>20181228</vh>
 <v t="leo.20181224194206.2" a="E"><vh>簡介</vh>
 <v t="leo.20181224194206.3"><vh>內容</vh></v>
 </v>
@@ -116,7 +116,7 @@
 <v t="leo.20181224194206.15"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20190104115337.1" a="E"><vh>20180104</vh>
+<v t="leo.20190104115337.1"><vh>20180104</vh>
 <v t="leo.20190104115337.2" a="E"><vh>簡介</vh>
 <v t="leo.20190104115337.3"><vh>內容</vh></v>
 </v>
@@ -495,8 +495,7 @@ make.start()
 
 * 利用Onshape繪製[3D列印機](https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/7d9c6197c4cc7d6fa00fd6eb)
 
-* &lt;iframe width="560" height="315" src="https://youtu.be/UhzY_snbIPM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/UhzY_snbIPM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 [回頂頁](./index2.html#/1)
 
