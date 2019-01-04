@@ -543,24 +543,24 @@ g.es('-'*12)</t>
 ===
 @others
 </t>
-<t tx="leo1.20171221091031.16">再模擬3DPrinter前先試著使用V-rep這套軟體[HIT_"PDF"_ME](https://mdecadp2018.github.io/site-40623130/finalreport/pdf/report.pdf)
+<t tx="leo1.20171221091031.16">再模擬主機前先試著使用V-rep這套軟體[PDF_Hit_Me](https://mdecadp2018.github.io/site-40623130/finalreport/pdf/report.pdf)
 
-[First](./images/vrep/1.png "First")![First](./images/vrep/1.png "First"){width=450px height=450px}
+[First](./images/vrep/1.png )![First](./images/vrep/1.png ){width=450px height=450px}
 
-大多都是馬達作動皮帶並帶動齒輪運動，考慮到系統運作的流暢度、物件的可視性及操作的方便性，我將原圖形"簡化"並分成四個部分，分別是 :
+大多都是馬達作動皮帶並帶動齒輪運動，考慮到系統運作的流暢度、物件的可視
+性及操作的方便性，我將原圖形 “簡化” 並分成四個部分，分別是:
 
-[Skeleton](./images/vrep/skeleton.jpg)![Skeleton](./images/vrep/skeleton.jpg){width=450px height=450px}
+[Skeleton](./images/vrep/skeleton.png )![Skeleton](./images/vrep/skeleton.jpg ){width=450px height=450px}
 
+[Parts_of_Printer](./images/vrep/skeleton2.png )![Parts_of_PrinterSkeleton](./images/vrep/skeleton2.jpg ){width=450px height=450px}
 
-[Parts_of_Printer](./images/vrep/skeleton2.jpg)![Skeleton-2](./images/vrep/skeleton2.jpg){width=450px height=450px}
-
-Frame&amp;LeadScrew&amp;SlideRail : 影響最大的支架&amp;導螺桿&amp;軸&amp;滑軌
+Frame&amp;LeadScrew&amp;SlideRail : 影響最大的支架 &amp; 導螺桿 &amp; 軸 &amp; 滑軌
 
 Nozzle : 最上方的噴嘴
 
-SlidingShaft&amp;SlideRailSeat : 移動噴嘴的滑軌座&amp;滑動軸
+SlidingShaft&amp;SlideRailSeat : 移動噴嘴的滑軌座 &amp; 滑動軸
 
-PassivePart : 放置作品的平板&amp;保持平衡的滾珠導螺桿座</t>
+PassivePart : 放置作品的平板 &amp; 保持平衡的滾珠導螺桿座</t>
 <t tx="leo1.20171221091031.17">Onshape自訂義功能-蜂巢填充
 ===
 
