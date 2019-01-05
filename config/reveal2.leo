@@ -991,7 +991,7 @@ FeatuseScript編寫練習
 
 &lt;iframe width="560" height="315" src="https://youtu.be/V_GmofG5xhE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
-[檔案](https://mdecadp2018.github.io/v-rep/3D-printer/finalreport/markdown/vrep/skeleton-5.ttt)
+[檔案](https://mdecadp2018.github.io/finalproject-ag4/v-rep/3D-printer/skeleton-5.ttt)
 
 [回頂頁](./index2.html#/5)
 
