@@ -2056,6 +2056,7 @@ window.location= 'https://' + location.host + location.pathname + location.searc
 &lt;li&gt;&lt;a href="index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="sitemap.html"&gt;Site Map&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="./../reveal/index.html"&gt;reveal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="./../reveal/index2.html"&gt;組員各週工作簡報&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="./../blog/index.html"&gt;blog&lt;/a&gt;&lt;/li&gt;
 '''
     outstring += '''
