@@ -93,11 +93,11 @@
 <v t="leo.20181224194052.15"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20181224194206.1"><vh>20181228</vh>
+<v t="leo.20181224194206.1" a="E"><vh>20181228</vh>
 <v t="leo.20181224194206.2" a="E"><vh>簡介</vh>
 <v t="leo.20181224194206.3"><vh>內容</vh></v>
 </v>
-<v t="leo.20181224194206.4"><vh>李如芳</vh>
+<v t="leo.20181224194206.4" a="E"><vh>李如芳</vh>
 <v t="leo.20181224194206.5"><vh>內容</vh></v>
 </v>
 <v t="leo.20181224194206.6" a="E"><vh>葉修宏</vh>
@@ -106,7 +106,7 @@
 <v t="leo.20181224194206.8"><vh>張育偉</vh>
 <v t="leo.20181224194206.9"><vh>內容</vh></v>
 </v>
-<v t="leo.20181224194206.10"><vh>張華倞</vh>
+<v t="leo.20181224194206.10" a="E"><vh>張華倞</vh>
 <v t="leo.20181224194206.11"><vh>內容</vh></v>
 </v>
 <v t="leo.20181224194206.12"><vh>陳鉅忠</vh>
@@ -116,7 +116,7 @@
 <v t="leo.20181224194206.15"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20190104115337.1"><vh>20180104</vh>
+<v t="leo.20190104115337.1" a="E"><vh>20180104</vh>
 <v t="leo.20190104115337.2" a="E"><vh>簡介</vh>
 <v t="leo.20190104115337.3"><vh>內容</vh></v>
 </v>
@@ -239,7 +239,7 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">## 2018Fall 期末分組 第四組簡報
+<t tx="leo.20180827201621.10">## 2018Fall 期末分組 第四組各週工作簡報
 
 ### 虎科大機械設計工程系
 
@@ -248,6 +248,8 @@ Created by [ag4](https://github.com/mdecadp2018/finalproject-ag4)
 &lt;/small&gt;
 
 [網站](https://mdecadp2018.github.io/finalproject-ag4/content/index.html)
+
+[倉儲](https://github.com/mdecadp2018/finalproject-ag4)
 
 
 </t>
@@ -832,7 +834,11 @@ make.start()
 </t>
 <t tx="leo.20181224194206.11">## 40623128 張華倞
 
+整理FeatureScript編寫[介面介紹](https://mdecadp2018.github.io/site-40623128/content/FeatureScript%E4%BB%8B%E7%B4%B9.html)
 
+FeatuseScript編寫練習
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/d2qZ1EtTdfU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 [回頂頁](./index2.html#/4)
 
@@ -954,7 +960,7 @@ make.start()
 </t>
 <t tx="leo.20190104115337.11">## 40623128 張華倞
 
-
+資料最後整理
 
 [回頂頁](./index2.html#/5)
 
