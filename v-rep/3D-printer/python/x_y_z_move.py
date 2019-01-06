@@ -49,6 +49,7 @@ setJointPositionx(0.005, 45)
 setJointPositiony(0.005, 60)
 # 每步 移動0.005m, 移80次
 setJointPositionz(0.005, 80)
+# 回歸起始點
 setJointPositionO(0, 1)
 
 
