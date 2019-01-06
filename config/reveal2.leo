@@ -116,7 +116,7 @@
 <v t="leo.20181224194206.15"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20190104115337.1"><vh>20180104</vh>
+<v t="leo.20190104115337.1" a="E"><vh>20180104</vh>
 <v t="leo.20190104115337.2"><vh>簡介</vh>
 <v t="leo.20190104115337.3"><vh>內容</vh></v>
 </v>
@@ -129,7 +129,7 @@
 <v t="leo.20190104115337.8"><vh>張育偉</vh>
 <v t="leo.20190104115337.9"><vh>內容</vh></v>
 </v>
-<v t="leo.20190104115337.10"><vh>張華倞</vh>
+<v t="leo.20190104115337.10" a="E"><vh>張華倞</vh>
 <v t="leo.20190104115337.11"><vh>內容</vh></v>
 </v>
 <v t="leo.20190104115337.12"><vh>陳鉅忠</vh>
@@ -970,6 +970,8 @@ FeatuseScript編寫練習
 						
 </t>
 <t tx="leo.20190104115337.11">## 40623128 張華倞
+
+編寫[vrep python remote api](https://mdecadp2018.github.io/finalproject-ag4/content/3D-Printer-Python-Control.html)
 
 資料最後總整理
 
