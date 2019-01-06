@@ -41,7 +41,10 @@
 <v t="leo1.20171221091031.14"><vh>列印機外觀介紹</vh></v>
 </v>
 <v t="leo1.20171221091031.15" a="E"><vh>@clean pyqt5_introduction.md</vh>
-<v t="leo1.20171221091031.16"><vh>V-rep</vh></v>
+<v t="leo.20190105234947.1"><vh>V-rep-1</vh></v>
+<v t="leo1.20171221091031.16"><vh>V-rep-2</vh></v>
+<v t="leo.20190106000924.1"><vh>V-rep-3</vh></v>
+<v t="leo.20190106002244.1"><vh>V-rep-4</vh></v>
 </v>
 <v t="leo1.20171221091031.17" a="E"><vh>@clean calculator.md</vh>
 <v t="leo1.20171221091031.18"><vh>Onshape自訂義功能-蜂巢填充</vh></v>
@@ -472,6 +475,62 @@ Table: 價目表 {#tbl:價目表}
 
 [end]: ./images/calculator/End.png {#fig:駱駝}
 </t>
+<t tx="leo.20190105234947.1">First-step
+---
+再模擬主機前先試著使用V-rep這套軟體[PDF_Hit_Me](https://mdecadp2018.github.io/site-40623130/finalreport/pdf/report.pdf)
+
+[First](https://mdecadp2018.github.io/finalproject-ag4/finalreport/markdown/images/vrep/1.png)![First](./images/vrep/1.png ){width=450px height=450px}
+
+大多都是馬達作動皮帶並帶動齒輪運動，考慮到系統運作的流暢度、物件的可視
+性及操作的方便性，我將原圖形 “簡化” 並分成四個部分，分別是:
+
+[Skeleton](https://mdecadp2018.github.io/finalproject-ag4/finalreport/markdown/images/vrep/skeleton.png )![Skeleton](./images/vrep/skeleton.jpg ){width=450px height=450px}
+
+[Parts_of_Printer](https://mdecadp2018.github.io/finalproject-ag4/finalreport/markdown/images/vrep/skeleton2.png )![Parts_of_PrinterSkeleton](./images/vrep/skeleton2.jpg ){width=450px height=450px}
+
+Frame&amp;LeadScrew&amp;SlideRail : 影響最大的支架 &amp; 導螺桿 &amp; 軸 &amp; 滑軌
+
+Nozzle : 最上方的噴嘴
+
+SlidingShaft&amp;SlideRailSeat : 移動噴嘴的滑軌座 &amp; 滑動軸
+
+PassivePart : 放置作品的平板 &amp; 保持平衡的滾珠導螺桿座
+
+---
+
+</t>
+<t tx="leo.20190106000924.1">Third-step
+---
+[Dummy](https://mdecadp2018.github.io/finalproject-ag4/finalreport/markdown/images/vrep/skeleton5.png )![Dummy](./images/vrep/skeleton5.png ){width=450px height=450px}
+
+加入四個Dummy後設定好運動關係，我選擇使用IK運動算試於tip1→target1與tip2→target2
+
+[Dummy-2](https://mdecadp2018.github.io/finalproject-ag4/finalreport/markdown/images/vrep/skeleton6.png)![Dummy-2](./images/vrep/skeleton6.png ){width=450px height=450px}
+
+在設定collision時發現Frame&amp;LeadScrew&amp;SlideRail這物件包含的LeadScrew&amp;SlideRail滑動軸與導螺感會與PassivePart中間的滾珠導螺桿座及平板物件會直接發生干涉，所以我將它們分開並命名為Six
+
+設定collision:
+
+N(中上方的噴頭)與FL(Printer骨架)
+
+N(中間的噴頭)與SS(Printer骨架)
+
+SS(中間的滾珠導螺桿座及平板物件)與FL(Printer骨架)
+
+---
+
+</t>
+<t tx="leo.20190106002244.1">Final-step
+---
+[Final](https://mdecadp2018.github.io/finalproject-ag4/finalreport/markdown/images/vrep/skeleton7.png )![Final](./images/vrep/skeleton7.png ){width=450px height=450px}
+
+除了code的部分，V-rep設定的大概就這樣了。
+
+基本滑動模擬影片: [https://www.youtube.com/watch?v=V_GmofG5xhE](https://www.youtube.com/watch?v=V_GmofG5xhE) 
+
+---
+
+</t>
 <t tx="leo1.20171221090811.1"></t>
 <t tx="leo1.20171221090839.1"></t>
 <t tx="leo1.20171221090921.1">@language python
@@ -523,10 +582,40 @@ g.es('-'*12)</t>
 列印機使用材料介紹
 
 
-[腳輪](https://tw.misumi-ec.com/vona2/detail/110300477340/?CategorySpec=00000289437%3a%3ab)
-[螺母座](https://detail.1688.com/offer/571855775654.html?spm=a261b.8768355.pic-list.2.1e3d3497zPcLbw&amp;tracelog=p4p&amp;clickid=139b6690be264b53b021d52477db9963&amp;sessionid=9118ee9464b334d9b43d53e1dad425dc)
-[42部馬達支架](https://world.taobao.com/item/565887733989.htm?spm=a21wu.10013406-tw.0.0.5ddfd7fcv0k9Tl)
-[新-腳輪](https://tw.misumi-ec.com/vona2/detail/110300511370/)
+腳輪:[https://tw.misumi-ec.com/vona2/detail/110300477340/?CategorySpec=00000289437%3a%3ab](https://tw.misumi-ec.com/vona2/detail/110300477340/?CategorySpec=00000289437%3a%3ab)
+
+螺母座:[https://detail.1688.com/offer/571855775654.html?spm=a261b.8768355.pic-list.2.1e3d3497zPcLbw&amp;tracelog=p4p&amp;clickid=139b6690be264b53b021d52477db9963&amp;sessionid=9118ee9464b334d9b43d53e1dad425dc](https://detail.1688.com/offer/571855775654.html?spm=a261b.8768355.pic-list.2.1e3d3497zPcLbw&amp;tracelog=p4p&amp;clickid=139b6690be264b53b021d52477db9963&amp;sessionid=9118ee9464b334d9b43d53e1dad425dc)
+
+42部馬達支架:[https://world.taobao.com/item/565887733989.htm?spm=a21wu.10013406-tw.0.0.5ddfd7fcv0k9Tl](https://world.taobao.com/item/565887733989.htm?spm=a21wu.10013406-tw.0.0.5ddfd7fcv0k9Tl)
+
+新 - 腳輪:[https://tw.misumi-ec.com/vona2/detail/110300511370/](https://tw.misumi-ec.com/vona2/detail/110300511370/)
+
+光軸滑塊:[https://world.taobao.com/item/14495101210.htm?spm=a21wu.10013406-tw.0.0.5df37e2bIirEth](https://world.taobao.com/item/14495101210.htm?spm=a21wu.10013406-tw.0.0.5df37e2bIirEth)
+
+噴頭:[https://world.taobao.com/item/560317882313.htm?spm=a21wu.10013406-tw.0.0.1da65c76OUnpUi](https://world.taobao.com/item/560317882313.htm?spm=a21wu.10013406-tw.0.0.1da65c76OUnpUi)
+
+[https://world.taobao.com/item/520431331861.htm?spm=a21wu.10013406-tw.0.0.1da65c76OUnpUi](https://world.taobao.com/item/520431331861.htm?spm=a21wu.10013406-tw.0.0.1da65c76OUnpUi)
+
+噴嘴:[https://item.taobao.com/item.htm?id=527963597624&amp;ali_refid=a3_430750_1006:1122639050:N:3d%E6%89%93%E5%8D%B0%E6%9C%BA%E5%96%B7%E5%98%B4:0cb031b1a129ead4961146ee1ff7099b&amp;ali_trackid=1_0cb031b1a129ead4961146ee1ff7099b&amp;spm=a21wu.10013406-tw.0.0](https://item.taobao.com/item.htm?id=527963597624&amp;ali_refid=a3_430750_1006:1122639050:N:3d%E6%89%93%E5%8D%B0%E6%9C%BA%E5%96%B7%E5%98%B4:0cb031b1a129ead4961146ee1ff7099b&amp;ali_trackid=1_0cb031b1a129ead4961146ee1ff7099b&amp;spm=a21wu.10013406-tw.0.0)
+
+惰輪固定座:[https://goods.ruten.com.tw/item/show?21613312248418#info](https://goods.ruten.com.tw/item/show?21613312248418#info)
+
+風扇:[https://tw.bid.yahoo.com/item/%E3%80%90%E5%85%A8%E5%86%A0%E3%80%91ADDA-9-2%E5%85%AC%E5%88%86%E9%A2%A8%E6%89%87-9-2-9-2-3-8%E5%85%AC%E5%88%8624V0-7A-2%E7%B7%9A-100518089635](https://tw.bid.yahoo.com/item/%E3%80%90%E5%85%A8%E5%86%A0%E3%80%91ADDA-9-2%E5%85%AC%E5%88%86%E9%A2%A8%E6%89%87-9-2-9-2-3-8%E5%85%AC%E5%88%8624V0-7A-2%E7%B7%9A-100518089635)
+
+同步輪:[http://www.ciguang.com/productsd/tid14/pid59.html](http://www.ciguang.com/productsd/tid14/pid59.html)
+
+[https://item.taobao.com/item.htm?id=7088047896&amp;scm=20140651.199.TW.973002450_7088047896&amp;gclid=EAIaIQobChMIyOLR8Kue3wIV2qmWCh3gHAHUEAQYASABEgIT_PD_BwE](https://item.taobao.com/item.htm?id=7088047896&amp;scm=20140651.199.TW.973002450_7088047896&amp;gclid=EAIaIQobChMIyOLR8Kue3wIV2qmWCh3gHAHUEAQYASABEgIT_PD_BwE)
+
+軸座:[https://world.taobao.com/item/521011557898.htm?spm=a21wu.10013406-tw.0.0.572c2d3e6k8ZWK](https://world.taobao.com/item/521011557898.htm?spm=a21wu.10013406-tw.0.0.572c2d3e6k8ZWK)
+
+
+
+
+
+
+
+
+
 
 @others
 </t>
@@ -543,24 +632,19 @@ g.es('-'*12)</t>
 ===
 @others
 </t>
-<t tx="leo1.20171221091031.16">再模擬主機前先試著使用V-rep這套軟體[PDF_Hit_Me](https://mdecadp2018.github.io/site-40623130/finalreport/pdf/report.pdf)
+<t tx="leo1.20171221091031.16">Second-step
+---
+[Joint](https://mdecadp2018.github.io/finalproject-ag4/finalreport/markdown/images/vrep/skeleton3.jpg )![Joint](./images/vrep/skeleton3.jpg ){width=450px height=450px}
 
-[First](./images/vrep/1.png )![First](./images/vrep/1.png ){width=450px height=450px}
+加入方形的joint : prismatic，並將他們設定到作動的位置，我解化了各個軸的joint並設定成最重要的選擇三個XYZ的軸，並設定好運動範圍必免模擬時超出範圍
 
-大多都是馬達作動皮帶並帶動齒輪運動，考慮到系統運作的流暢度、物件的可視
-性及操作的方便性，我將原圖形 “簡化” 並分成四個部分，分別是:
+[Tree](https://mdecadp2018.github.io/finalproject-ag4/finalreport/markdown/images/vrep/skeleton4.jpg )![Tree](./images/vrep/skeleton4.jpg ){width=450px height=450px}
 
-[Skeleton](./images/vrep/skeleton.png )![Skeleton](./images/vrep/skeleton.jpg ){width=450px height=450px}
+設定好樹狀圖關係
 
-[Parts_of_Printer](./images/vrep/skeleton2.png )![Parts_of_PrinterSkeleton](./images/vrep/skeleton2.jpg ){width=450px height=450px}
+---
 
-Frame&amp;LeadScrew&amp;SlideRail : 影響最大的支架 &amp; 導螺桿 &amp; 軸 &amp; 滑軌
-
-Nozzle : 最上方的噴嘴
-
-SlidingShaft&amp;SlideRailSeat : 移動噴嘴的滑軌座 &amp; 滑動軸
-
-PassivePart : 放置作品的平板 &amp; 保持平衡的滾珠導螺桿座</t>
+</t>
 <t tx="leo1.20171221091031.17">Onshape自訂義功能-蜂巢填充
 ===
 

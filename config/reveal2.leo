@@ -31,19 +31,19 @@
 <v t="leo.20181213213640.4"><vh>李如芳</vh>
 <v t="leo.20181213213640.5"><vh>內容</vh></v>
 </v>
-<v t="leo.20181213213640.6" a="E"><vh>葉修宏</vh>
+<v t="leo.20181213213640.6"><vh>葉修宏</vh>
 <v t="leo.20181213213640.7"><vh>內容</vh></v>
 </v>
 <v t="leo.20181213214055.1"><vh>張育偉</vh>
 <v t="leo.20181213214055.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181213214057.1" a="E"><vh>張華倞</vh>
+<v t="leo.20181213214057.1"><vh>張華倞</vh>
 <v t="leo.20181213214057.2"><vh>內容</vh></v>
 </v>
 <v t="leo.20181213214059.1"><vh>陳鉅忠</vh>
 <v t="leo.20181213214059.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181213214104.1" a="E"><vh>黃馨慧</vh>
+<v t="leo.20181213214104.1"><vh>黃馨慧</vh>
 <v t="leo.20181213214104.2"><vh>內容</vh></v>
 </v>
 </v>
@@ -51,62 +51,62 @@
 <v t="leo.20181213215941.2"><vh>簡介</vh>
 <v t="leo.20181213215941.3"><vh>內容</vh></v>
 </v>
-<v t="leo.20181213215941.4" a="E"><vh>李如芳</vh>
+<v t="leo.20181213215941.4"><vh>李如芳</vh>
 <v t="leo.20181213215941.5"><vh>內容</vh></v>
 </v>
-<v t="leo.20181213215941.6" a="E"><vh>葉修宏</vh>
+<v t="leo.20181213215941.6"><vh>葉修宏</vh>
 <v t="leo.20181213215941.7"><vh>內容</vh></v>
 </v>
-<v t="leo.20181213215941.8" a="E"><vh>張育偉</vh>
+<v t="leo.20181213215941.8"><vh>張育偉</vh>
 <v t="leo.20181213215941.9"><vh>內容</vh></v>
 </v>
-<v t="leo.20181213215941.10" a="E"><vh>張華倞</vh>
+<v t="leo.20181213215941.10"><vh>張華倞</vh>
 <v t="leo.20181213215941.11"><vh>內容</vh></v>
 </v>
-<v t="leo.20181213215941.12" a="E"><vh>陳鉅忠</vh>
+<v t="leo.20181213215941.12"><vh>陳鉅忠</vh>
 <v t="leo.20181213215941.13"><vh>內容</vh></v>
 </v>
-<v t="leo.20181213215941.14" a="E"><vh>黃馨慧</vh>
+<v t="leo.20181213215941.14"><vh>黃馨慧</vh>
 <v t="leo.20181213215941.15"><vh>內容</vh></v>
 </v>
 </v>
 <v t="leo.20181224194052.1"><vh>20181221</vh>
-<v t="leo.20181224194052.2" a="E"><vh>簡介</vh>
+<v t="leo.20181224194052.2"><vh>簡介</vh>
 <v t="leo.20181224194052.3"><vh>內容</vh></v>
 </v>
-<v t="leo.20181224194052.4" a="E"><vh>李如芳</vh>
+<v t="leo.20181224194052.4"><vh>李如芳</vh>
 <v t="leo.20181224194052.5"><vh>內容</vh></v>
 </v>
-<v t="leo.20181224194052.6" a="E"><vh>葉修宏</vh>
+<v t="leo.20181224194052.6"><vh>葉修宏</vh>
 <v t="leo.20181224194052.7"><vh>內容</vh></v>
 </v>
-<v t="leo.20181224194052.8" a="E"><vh>張育偉</vh>
+<v t="leo.20181224194052.8"><vh>張育偉</vh>
 <v t="leo.20181224194052.9"><vh>內容</vh></v>
 </v>
-<v t="leo.20181224194052.10" a="E"><vh>張華倞</vh>
+<v t="leo.20181224194052.10"><vh>張華倞</vh>
 <v t="leo.20181224194052.11"><vh>內容</vh></v>
 </v>
-<v t="leo.20181224194052.12" a="E"><vh>陳鉅忠</vh>
+<v t="leo.20181224194052.12"><vh>陳鉅忠</vh>
 <v t="leo.20181224194052.13"><vh>內容</vh></v>
 </v>
-<v t="leo.20181224194052.14" a="E"><vh>黃馨慧</vh>
+<v t="leo.20181224194052.14"><vh>黃馨慧</vh>
 <v t="leo.20181224194052.15"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20181224194206.1" a="E"><vh>20181228</vh>
-<v t="leo.20181224194206.2" a="E"><vh>簡介</vh>
+<v t="leo.20181224194206.1"><vh>20181228</vh>
+<v t="leo.20181224194206.2"><vh>簡介</vh>
 <v t="leo.20181224194206.3"><vh>內容</vh></v>
 </v>
-<v t="leo.20181224194206.4" a="E"><vh>李如芳</vh>
+<v t="leo.20181224194206.4"><vh>李如芳</vh>
 <v t="leo.20181224194206.5"><vh>內容</vh></v>
 </v>
-<v t="leo.20181224194206.6" a="E"><vh>葉修宏</vh>
+<v t="leo.20181224194206.6"><vh>葉修宏</vh>
 <v t="leo.20181224194206.7"><vh>內容</vh></v>
 </v>
 <v t="leo.20181224194206.8"><vh>張育偉</vh>
 <v t="leo.20181224194206.9"><vh>內容</vh></v>
 </v>
-<v t="leo.20181224194206.10" a="E"><vh>張華倞</vh>
+<v t="leo.20181224194206.10"><vh>張華倞</vh>
 <v t="leo.20181224194206.11"><vh>內容</vh></v>
 </v>
 <v t="leo.20181224194206.12"><vh>陳鉅忠</vh>
@@ -116,26 +116,26 @@
 <v t="leo.20181224194206.15"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20190104115337.1" a="E"><vh>20180104</vh>
-<v t="leo.20190104115337.2" a="E"><vh>簡介</vh>
+<v t="leo.20190104115337.1"><vh>20180104</vh>
+<v t="leo.20190104115337.2"><vh>簡介</vh>
 <v t="leo.20190104115337.3"><vh>內容</vh></v>
 </v>
-<v t="leo.20190104115337.4" a="E"><vh>李如芳</vh>
+<v t="leo.20190104115337.4"><vh>李如芳</vh>
 <v t="leo.20190104115337.5"><vh>內容</vh></v>
 </v>
-<v t="leo.20190104115337.6" a="E"><vh>葉修宏</vh>
+<v t="leo.20190104115337.6"><vh>葉修宏</vh>
 <v t="leo.20190104115337.7"><vh>內容</vh></v>
 </v>
-<v t="leo.20190104115337.8" a="E"><vh>張育偉</vh>
+<v t="leo.20190104115337.8"><vh>張育偉</vh>
 <v t="leo.20190104115337.9"><vh>內容</vh></v>
 </v>
-<v t="leo.20190104115337.10" a="E"><vh>張華倞</vh>
+<v t="leo.20190104115337.10"><vh>張華倞</vh>
 <v t="leo.20190104115337.11"><vh>內容</vh></v>
 </v>
-<v t="leo.20190104115337.12" a="E"><vh>陳鉅忠</vh>
+<v t="leo.20190104115337.12"><vh>陳鉅忠</vh>
 <v t="leo.20190104115337.13"><vh>內容</vh></v>
 </v>
-<v t="leo.20190104115337.14" a="E"><vh>黃馨慧</vh>
+<v t="leo.20190104115337.14"><vh>黃馨慧</vh>
 <v t="leo.20190104115337.15"><vh>內容</vh></v>
 </v>
 </v>
@@ -546,7 +546,9 @@ make.start()
 </t>
 <t tx="leo.20181213214059.2">## 40623130 陳鉅忠
 
-* [研究V-rep的使用](https://mdecadp2018.github.io/finalproject-ag4/content/Test.html)
+* [研究V-rep的使用](https://mdecadp2018.github.io/finalproject-ag4/content/Test-1.html)
+
+&lt;iframe width="560" height="315" src="https://youtu.be/RW_sTVG44eI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 [回頂頁](./index2.html#/1)
 
@@ -600,6 +602,9 @@ make.start()
 </t>
 <t tx="leo.20181213215941.13">## 40623130 陳鉅忠
 
+* [研究V-rep的使用](https://mdecadp2018.github.io/finalproject-ag4/content/Test-2.html)
+
+&lt;iframe width="560" height="315" src="https://youtu.be/YjV-fOLij8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 [回頂頁](./index2.html#/2)
@@ -728,6 +733,9 @@ make.start()
 </t>
 <t tx="leo.20181224194052.13">## 40623130 陳鉅忠
 
+* [研究V-rep的使用](https://mdecadp2018.github.io/finalproject-ag4/content/Test-2.html)
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/watch?v=MS2IHEWyHTQ&amp;t=1s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 [回頂頁](./index2.html#/3)
@@ -854,6 +862,9 @@ FeatuseScript編寫練習
 </t>
 <t tx="leo.20181224194206.13">## 40623130 陳鉅忠
 
+* [製作V-rep的機械手臂大綱簡報](https://mdecadp2018.github.io/finalproject-ag4/finalreport/pdf/report.pdf)
+
+[參考PDF](http://www.coppeliarobotics.com/helpFiles/en/inverseKinematicsTutorial.htm)
 
 
 [回頂頁](./index2.html#/4)
@@ -976,7 +987,11 @@ FeatuseScript編寫練習
 </t>
 <t tx="leo.20190104115337.13">## 40623130 陳鉅忠
 
+* [開始研究3D-printer_V-rep](https://mdecadp2018.github.io/finalproject-ag4/content/3D-Printer.html)
 
+&lt;iframe width="560" height="315" src="https://youtu.be/V_GmofG5xhE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+[檔案](https://mdecadp2018.github.io/finalproject-ag4/v-rep/3D-printer/skeleton-5.ttt)
 
 [回頂頁](./index2.html#/5)
 
