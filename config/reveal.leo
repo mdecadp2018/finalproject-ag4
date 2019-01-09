@@ -463,7 +463,7 @@ make.start()
 </t>
 <t tx="leo.20190109134333.5">## 列印機材料繪製與組裝
 
-外觀:
+組合圖:
 
 &lt;img src="image/01.png" alt="外觀" title="外觀" width="250px;"&gt;
 
@@ -498,7 +498,7 @@ make.start()
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/KqJ3erws-Ao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
-
+[設定檔與程式檔](https://mdecadp2018.github.io/finalproject-ag4/v-rep/3D-printer/3d_printer_xyz.rar)
 
 
 </t>
