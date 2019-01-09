@@ -484,7 +484,9 @@ make.start()
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/V_GmofG5xhE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
-[模擬設定檔](https://mdecadp2018.github.io/finalproject-ag4/v-rep/3D-printer/skeleton-5.ttt)</t>
+[模擬設定檔](https://mdecadp2018.github.io/finalproject-ag4/v-rep/3D-printer/skeleton-5.ttt)
+
+</t>
 <t tx="leo.20190109134738.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -496,9 +498,9 @@ make.start()
 </t>
 <t tx="leo.20190109134738.2">## V-rep python模擬
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/KqJ3erws-Ao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/watch?time_continue=91&amp;v=1iD_jm5Xnjk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
-[設定檔與程式檔](https://mdecadp2018.github.io/finalproject-ag4/v-rep/3D-printer/3d_printer_xyz.rar)
+[設定檔與程式檔](https://mdecadp2018.github.io/finalproject-ag4/v-rep/3D-printer/3d_printer_xyz_3.rar)
 
 
 </t>

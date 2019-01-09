@@ -283,6 +283,8 @@ export const HexInfill = defineFeature(function(context is Context, id is Id, de
 <p><a href="https://mdecadp2018.github.io/finalproject-ag4/v-rep/3D-printer/skeleton-5.ttt">檔案</a></p>
 <p>基本滑動模擬影片:<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="//www.youtube.com/embed/V_GmofG5xhE" width="560"></iframe></p>
 <h2>3D-Printer-Python-Control</h2>
+<h3>初版</h3>
+<p>問題:因為是直接由原點計算絕對座標位置來移動，如果從非原點位置當起始點開始移動，會造成順移回起始點才開始移動。</p>
 <p>模擬影片:</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/KqJ3erws-Ao" width="560"></iframe></p>
 <p><a href="https://mdecadp2018.github.io/finalproject-ag4/v-rep/3D-printer/3d_printer_xyz.rar">設定檔與程式檔下載</a></p>
@@ -351,10 +353,236 @@ simxSetJointPosition(clientID,joint2Handle,joint2Value,simx_opmode_oneshot);
 simxSetJointPosition(clientID,joint3Handle,joint3Value,simx_opmode_oneshot);
 simxPauseCommunication(clientID,0);
 '''
+</pre><h3>第二版</h3>
+<p>成功由絕對座標改為增量座標</p>
+<p>問題:發現只能往正方向移動，無法往負方向移動。</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/YQTU0pn_vNA" width="560"></iframe></p>
+<p><a href="https://mdecadp2018.github.io/finalproject-ag4/v-rep/3D-printer/3d_printer_xyz_2.rar">設定檔與程式檔下載</a></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import vrep
+import sys, math
+# child threaded script: 
+# 內建使用 port 19997 若要加入其他 port, 在  serve 端程式納入
+#simExtRemoteApiStart(19999)
+ 
+vrep.simxFinish(-1)
+ 
+clientID = vrep.simxStart('127.0.0.1', 19997, True, True, 5000, 5)
+ 
+if clientID!= -1:
+    print("Connected to remote server")
+else:
+    print('Connection not successful')
+    sys.exit('Could not connect')
+ 
+#errorCode,Revolute_joint_handle=vrep.simxGetObjectHandle(clientID,'Prismatic_joint',vrep.simx_opmode_oneshot_wait)
+errorCode,Prismatic_joint_handle=vrep.simxGetObjectHandle(clientID,'Prismatic_joint',vrep.simx_opmode_oneshot_wait)
+errorCode,Prismatic_joint1_handle=vrep.simxGetObjectHandle(clientID,'Prismatic_joint1',vrep.simx_opmode_oneshot_wait)
+errorCode,Prismatic_joint0_handle=vrep.simxGetObjectHandle(clientID,'Prismatic_joint0',vrep.simx_opmode_oneshot_wait)
+ 
+if errorCode == -1:
+    print('Can not find left or right motor')
+    sys.exit()
+    
+
+#errorCode=vrep.simxSetJointTargetVelocity(clientID,Revolute_joint_handle,2, vrep.simx_opmode_oneshot_wait)
+def getJointPosition_x():
+        position_x=vrep.simxGetJointPosition(clientID,Prismatic_joint0_handle,vrep.simx_opmode_oneshot_wait)
+        x = position_x[1]
+        print(x)
+def getJointPosition_y():
+        position_y=vrep.simxGetJointPosition(clientID,Prismatic_joint1_handle,vrep.simx_opmode_oneshot_wait)
+        y = position_y[1]
+        print(y)
+def getJointPosition_z():
+        position_z=vrep.simxGetJointPosition(clientID,Prismatic_joint_handle,vrep.simx_opmode_oneshot_wait)
+        z = position_z[1]
+        print(z)
+
+def setJointPositionz(poi, steps):
+    for i  in range(steps):
+        position_z=vrep.simxGetJointPosition(clientID,Prismatic_joint_handle,vrep.simx_opmode_oneshot_wait)
+        z = position_z[1]
+        print(z)
+        errorCode=vrep.simxSetJointPosition(clientID, Prismatic_joint_handle, z-poi, vrep.simx_opmode_oneshot_wait)
+        
+def setJointPositiony(poi, steps):
+    for i  in range(steps):
+        position_y=vrep.simxGetJointPosition(clientID,Prismatic_joint1_handle,vrep.simx_opmode_oneshot_wait)
+        y = position_y[1]
+        print(y)
+        errorCode=vrep.simxSetJointPosition(clientID, Prismatic_joint1_handle, poi+y, vrep.simx_opmode_oneshot_wait)
+        
+def setJointPositionx(poi, steps):
+    for i  in range(steps):
+        position_x=vrep.simxGetJointPosition(clientID,Prismatic_joint0_handle,vrep.simx_opmode_oneshot_wait)
+        x = position_x[1]
+        print(x)
+        errorCode=vrep.simxSetJointPosition(clientID, Prismatic_joint0_handle, poi+x, vrep.simx_opmode_oneshot_wait)
+        
+def setJointPositionO(poi, steps):
+    errorCode=vrep.simxSetJointPosition(clientID, Prismatic_joint_handle, 0.11, vrep.simx_opmode_oneshot_wait)
+    errorCode=vrep.simxSetJointPosition(clientID, Prismatic_joint1_handle, -0.157, vrep.simx_opmode_oneshot_wait)
+    errorCode=vrep.simxSetJointPosition(clientID, Prismatic_joint0_handle,-0.09, vrep.simx_opmode_oneshot_wait)
+        
+def JointGoPosition(x,y,z):
+        x_step = x*10
+        y_step = y*10
+        z_step = z*10
+        setJointPositionx(0.001, x_step)
+        setJointPositiony(0.001, y_step)
+        setJointPositionz(0.001, z_step)
+        
+    
+#移動座標(x,y,z)
+JointGoPosition(10,0,0)
+JointGoPosition(0,0,10)
+JointGoPosition(0,10,0)
+JointGoPosition(-2,-2,-2)
+
+# 回歸起始點
+#setJointPositionO(0, 1)
+
+
+'''
+三軸同動時
+simxPauseCommunication(clientID,1);
+simxSetJointPosition(clientID,joint1Handle,joint1Value,simx_opmode_oneshot);
+simxSetJointPosition(clientID,joint2Handle,joint2Value,simx_opmode_oneshot);
+simxSetJointPosition(clientID,joint3Handle,joint3Value,simx_opmode_oneshot);
+simxPauseCommunication(clientID,0);
+'''
+
+        
+
+
+
+
 </pre>
-<p></p><h1>Experience</h1>
-<p>To renew our thought weekly<a href="https://mdecadp2018.github.io/finalproject-bg1/content/W10.html"></a></p>
-<h2>Week11</h2>
+<p></p><h3>最新版</h3>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/1iD_jm5Xnjk" width="560"></iframe></p>
+<p><a href="https://mdecadp2018.github.io/finalproject-ag4/v-rep/3D-printer/3d_printer_xyz_3.rar">設定檔與程式檔下載</a></p>
+<p>原始碼:</p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import vrep
+import sys, math
+# child threaded script: 
+# 內建使用 port 19997 若要加入其他 port, 在  serve 端程式納入
+#simExtRemoteApiStart(19999)
+ 
+vrep.simxFinish(-1)
+ 
+clientID = vrep.simxStart('127.0.0.1', 19997, True, True, 5000, 5)
+ 
+if clientID!= -1:
+    print("Connected to remote server")
+else:
+    print('Connection not successful')
+    sys.exit('Could not connect')
+ 
+#errorCode,Revolute_joint_handle=vrep.simxGetObjectHandle(clientID,'Prismatic_joint',vrep.simx_opmode_oneshot_wait)
+errorCode,Prismatic_joint_handle=vrep.simxGetObjectHandle(clientID,'Prismatic_joint',vrep.simx_opmode_oneshot_wait)
+errorCode,Prismatic_joint1_handle=vrep.simxGetObjectHandle(clientID,'Prismatic_joint1',vrep.simx_opmode_oneshot_wait)
+errorCode,Prismatic_joint0_handle=vrep.simxGetObjectHandle(clientID,'Prismatic_joint0',vrep.simx_opmode_oneshot_wait)
+ 
+if errorCode == -1:
+    print('Can not find left or right motor')
+    sys.exit()
+    
+
+#errorCode=vrep.simxSetJointTargetVelocity(clientID,Revolute_joint_handle,2, vrep.simx_opmode_oneshot_wait)
+
+def setJointPositionz(poi, steps):
+    for i  in range(steps):
+        position_z=vrep.simxGetJointPosition(clientID,Prismatic_joint_handle,vrep.simx_opmode_oneshot_wait)
+        z = position_z[1]
+        print('z =' ,z)
+        errorCode=vrep.simxSetJointPosition(clientID, Prismatic_joint_handle, z-poi, vrep.simx_opmode_oneshot_wait)
+        
+def setJointPositiony(poi, steps):
+    for i  in range(steps):
+        position_y=vrep.simxGetJointPosition(clientID,Prismatic_joint1_handle,vrep.simx_opmode_oneshot_wait)
+        y = position_y[1]
+        print('y =' ,y)
+        errorCode=vrep.simxSetJointPosition(clientID, Prismatic_joint1_handle, poi+y, vrep.simx_opmode_oneshot_wait)
+        
+def setJointPositionx(poi, steps):
+    for i  in range(steps):
+        position_x=vrep.simxGetJointPosition(clientID,Prismatic_joint0_handle,vrep.simx_opmode_oneshot_wait)
+        x = position_x[1]
+        print('x =' , x)
+        errorCode=vrep.simxSetJointPosition(clientID, Prismatic_joint0_handle, poi+x, vrep.simx_opmode_oneshot_wait)
+        
+def setJointPositionO(poi, steps):
+    errorCode=vrep.simxSetJointPosition(clientID, Prismatic_joint_handle, 0.11, vrep.simx_opmode_oneshot_wait)
+    errorCode=vrep.simxSetJointPosition(clientID, Prismatic_joint1_handle, -0.157, vrep.simx_opmode_oneshot_wait)
+    errorCode=vrep.simxSetJointPosition(clientID, Prismatic_joint0_handle,-0.09, vrep.simx_opmode_oneshot_wait)
+        
+def JointGoPosition(x,y,z):
+    
+    
+        if x &gt;= 0 and y &gt;= 0 and z &gt;= 0 :
+            x_step = x*10
+            y_step = y*10
+            z_step = z*10
+            setJointPositionx(0.001, x_step)
+            setJointPositiony(0.001, y_step)
+            setJointPositionz(0.001, z_step)
+        elif x &lt; 0 and y &gt;= 0 and z &gt;= 0 :
+            x_step = x*-10
+            y_step = y*10
+            z_step = z*10
+            setJointPositionx(-0.001, x_step)
+            setJointPositiony(0.001, y_step)
+            setJointPositionz(0.001, z_step)
+        elif x &gt;= 0 and y &lt; 0 and z &gt;= 0 :
+            x_step = x*10
+            y_step = y*-10
+            z_step = z*10
+            setJointPositionx(0.001, x_step)
+            setJointPositiony(-0.001, y_step)
+            setJointPositionz(0.001, z_step)
+        elif x &gt;= 0 and y &gt;= 0 and z &lt; 0 :
+            x_step = x*10
+            y_step = y*10
+            z_step = z*-10
+            setJointPositionx(0.001, x_step)
+            setJointPositiony(0.001, y_step)
+            setJointPositionz(-0.001, z_step)
+        elif x &lt; 0 and y &lt; 0 and z &gt;= 0 :
+            x_step = x*-10
+            y_step = y*-10
+            z_step = z*10
+            setJointPositionx(-0.001, x_step)
+            setJointPositiony(-0.001, y_step)
+            setJointPositionz(0.001, z_step)
+        elif x &gt;= 0 and y &lt; 0 and z &lt; 0 :
+            x_step = x*10
+            y_step = y*-10
+            z_step = z*-10
+            setJointPositionx(0.001, x_step)
+            setJointPositiony(-0.001, y_step)
+            setJointPositionz(-0.001, z_step)
+        elif x &lt; 0 and y &gt;= 0 and z &lt; 0 :
+            x_step = x*-10
+            y_step = y*10
+            z_step = z*-10
+            setJointPositionx(-0.001, x_step)
+            setJointPositiony(0.001, y_step)
+            setJointPositionz(-0.001, z_step)
+        else:
+            x_step = x*-10
+            y_step = y*-10
+            z_step = z*-10
+            setJointPositionx(-0.001, x_step)
+            setJointPositiony(-0.001, y_step)
+            setJointPositionz(-0.001, z_step)
+
+#回歸(0,0,0)
+setJointPositionO(0, 1)
+
+#移動座標(x,y,z)(增量座標)
+JointGoPosition(0,10,0)</pre>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"></pre><h1>Experience</h1>
+<p>To renew our thought weekly<a href="https://mdecadp2018.github.io/finalproject-bg1/content/W10.html"></a></p><h2>Week11</h2>
 <p>40623109 :</p>
 <p>這週定下了期末專題，我們是選<span>3D</span>列印機，我被分配到在<span>Onshape</span>繪畫<span>3D</span>列印機的零件，剛開始還沒進入狀況，所以進度很慢，不過有同組同學的幫忙，才有慢慢地跟上小組的進度，之後會努力完成每一次的工作。</p>
 <p>40623124 :</p>
