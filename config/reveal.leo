@@ -30,6 +30,26 @@
 <v t="leo.20190105174516.1" a="E"><vh>專題題目</vh>
 <v t="leo.20190105174516.2"><vh>題目</vh></v>
 </v>
+<v t="leo.20190109132055.1" a="E"><vh>動機</vh>
+<v t="leo.20190109132055.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190109133035.1" a="E"><vh>實行方法</vh>
+<v t="leo.20190109133035.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190109134333.1" a="E"><vh>完成內容</vh>
+<v t="leo.20190109134333.2" a="E"><vh>第一頁</vh>
+<v t="leo.20190109134333.3"><vh>內容</vh></v>
+</v>
+<v t="leo.20190109134333.4" a="E"><vh>第二頁</vh>
+<v t="leo.20190109134333.5"><vh>內容</vh></v>
+</v>
+<v t="leo.20190109134333.6" a="E"><vh>第三頁</vh>
+<v t="leo.20190109134333.7"><vh>內容</vh></v>
+</v>
+<v t="leo.20190109134738.1" a="E"><vh>第四頁</vh>
+<v t="leo.20190109134738.2"><vh>內容</vh></v>
+</v>
+</v>
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -137,7 +157,7 @@ vertical: body pane on the botton</t>
 ### 期末簡報
 
 &lt;small&gt;
-Created by [ag4](https://github.com/mdecadp2018/finalproject-ag4)
+Created by [40623128](https://github.com/mdecadp2018/finalproject-ag4)
 &lt;/small&gt;
 
 [網站](https://mdecadp2018.github.io/finalproject-ag4/content/index.html)
@@ -362,13 +382,125 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190105174516.2"># 3D Printer
+<t tx="leo.20190105174516.2">## 專題題目
+
+### 3D列印機
 
 外觀:
 
 &lt;img src="image/01.png" alt="外觀" title="外觀" width="250px;"&gt;
 
 [圖檔](https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/7dcd192f89c5578eae1380eb)
+</t>
+<t tx="leo.20190109132055.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190109132055.2">## 動機
+
+一台3D列印機可以大大的減少設計所花時間，
+
+但對於學生時期的我們，
+
+要擁有一台價格又十分高昂，
+
+因此決定製作一台可以自行購買材料並安裝，
+
+也可以按照自己需求來決定大小的3D列印機。
+
+</t>
+<t tx="leo.20190109133035.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190109133035.2">## 實行方法
+
+以下圖為架構繪製列印機檔案
+
+所有零件皆由列印件或網路上即可買到的材料繪製並組裝
+
+&lt;img src="image/kll3pp.jpg" alt="xyz" title="xyz列印機" width="250px;"&gt;
+
+</t>
+<t tx="leo.20190109134333.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190109134333.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190109134333.3"># 完成內容
+</t>
+<t tx="leo.20190109134333.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190109134333.5">## 列印機材料繪製與組裝
+
+外觀:
+
+&lt;img src="image/01.png" alt="外觀" title="外觀" width="250px;"&gt;
+
+[圖檔](https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/7dcd192f89c5578eae1380eb)
+
+</t>
+<t tx="leo.20190109134333.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190109134333.7">## V-rep 自由度模擬
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/V_GmofG5xhE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+[模擬設定檔](https://mdecadp2018.github.io/finalproject-ag4/v-rep/3D-printer/skeleton-5.ttt)</t>
+<t tx="leo.20190109134738.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190109134738.2">## V-rep python模擬
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/KqJ3erws-Ao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
 </t>
 </tnodes>
 </leo_file>
