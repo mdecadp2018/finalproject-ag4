@@ -24,14 +24,14 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181213213640.1" a="E"><vh>20181207</vh>
+<v t="leo.20181213213640.1"><vh>20181207</vh>
 <v t="leo.20181213213640.2"><vh>簡介</vh>
 <v t="leo.20181213213640.3"><vh>內容</vh></v>
 </v>
-<v t="leo.20181213213640.4" a="E"><vh>李如芳</vh>
+<v t="leo.20181213213640.4"><vh>李如芳</vh>
 <v t="leo.20181213213640.5"><vh>內容</vh></v>
 </v>
-<v t="leo.20181213213640.6" a="E"><vh>葉修宏</vh>
+<v t="leo.20181213213640.6"><vh>葉修宏</vh>
 <v t="leo.20181213213640.7"><vh>內容</vh></v>
 </v>
 <v t="leo.20181213214055.1"><vh>張育偉</vh>
@@ -43,11 +43,11 @@
 <v t="leo.20181213214059.1"><vh>陳鉅忠</vh>
 <v t="leo.20181213214059.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181213214104.1"><vh>黃馨慧</vh>
+<v t="leo.20181213214104.1" a="E"><vh>黃馨慧</vh>
 <v t="leo.20181213214104.2"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20181213215941.1"><vh>20181214</vh>
+<v t="leo.20181213215941.1" a="E"><vh>20181214</vh>
 <v t="leo.20181213215941.2"><vh>簡介</vh>
 <v t="leo.20181213215941.3"><vh>內容</vh></v>
 </v>
@@ -89,7 +89,7 @@
 <v t="leo.20181224194052.12"><vh>陳鉅忠</vh>
 <v t="leo.20181224194052.13"><vh>內容</vh></v>
 </v>
-<v t="leo.20181224194052.14"><vh>黃馨慧</vh>
+<v t="leo.20181224194052.14" a="E"><vh>黃馨慧</vh>
 <v t="leo.20181224194052.15"><vh>內容</vh></v>
 </v>
 </v>
@@ -116,7 +116,7 @@
 <v t="leo.20181224194206.15"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20190104115337.1" a="E"><vh>20180104</vh>
+<v t="leo.20190104115337.1"><vh>20180104</vh>
 <v t="leo.20190104115337.2"><vh>簡介</vh>
 <v t="leo.20190104115337.3"><vh>內容</vh></v>
 </v>
@@ -129,7 +129,7 @@
 <v t="leo.20190104115337.8"><vh>張育偉</vh>
 <v t="leo.20190104115337.9"><vh>內容</vh></v>
 </v>
-<v t="leo.20190104115337.10" a="E"><vh>張華倞</vh>
+<v t="leo.20190104115337.10"><vh>張華倞</vh>
 <v t="leo.20190104115337.11"><vh>內容</vh></v>
 </v>
 <v t="leo.20190104115337.12"><vh>陳鉅忠</vh>
@@ -571,7 +571,7 @@ make.start()
 
 * 利用Onshape繪製[3D列印機](https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/7d9c6197c4cc7d6fa00fd6eb)
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Pg50vbbxH-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+* [線性滑塊](https://www.youtube.com/watch?v=Pg50vbbxH-g&amp;t=763s)
 
 [回頂頁](./index2.html#/1)
 </t>
@@ -626,7 +626,9 @@ make.start()
 </t>
 <t tx="leo.20181213215941.15">## 40623154 黃馨慧
 
+* [線材](https://www.youtube.com/watch?v=bN-CSaM9cWk&amp;t=127s)
 
+* [套筒](https://www.youtube.com/watch?v=p9VlI9k3Dag&amp;t=3s)
 
 [回頂頁](./index2.html#/2)
 </t>
