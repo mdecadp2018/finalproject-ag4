@@ -237,9 +237,7 @@ Table: 使用材料表 {#tbl:材料表}
 |     光軸固定座     |                                                                              [連結1](https://tw.misumi-ec.com/vona2/detail/110300013850/?HissuCode=SHF16)                                                                            [連結2](https://tw.misumi-ec.com/pdf/fa/2015/p1_275.pdf)                                                                             |
 |     惰輪2GT     |                                                                              [連結](https://item.taobao.com/item.htm?id=7088047896&amp;scm=20140651.199.TW.973002450_7088047896&amp;gclid=EAIaIQobChMIyOLR8Kue3wIV2qmWCh3gHAHUEAQYASABEgIT_PD_BwE&amp;fbclid=IwAR1U1ltAM9fe_vtsuLzE6tUAKzem5GaqVjzFAY6iXQcYTL4eR3hgLq7a5Co)                                                                             |
 |     鋁擠型       |                                                                              [連結](https://tw.misumi-ec.com/vona2/detail/110302686450/)                                                                            
-|
 |     直角連接件       |                                                                              [連結](https://tw.misumi-ec.com/vona2/detail/110300442860/)                                                                            
-|
 |     機鋁座       |                                                                              [連結](https://tw.bid.yahoo.com/item/%E3%80%90%E5%89%B5%E6%84%8F3D%E5%88%97%E5%8D%B0%E3%80%91MK8%E6%93%A0%E5%87%BA%E6%A9%9F%E9%8B%81%E5%BA%A7DIY%E9%85%8D%E4%BB%B6%E5%96%AE%E5%99%B4%E9%A0%AD%E6%93%A0%E5%87%BA%E6%A9%9F%E6%94%AF%E6%9E%B6-100431221165)                                                                            
 
 
@@ -419,6 +417,19 @@ Final-step
 
 ---
 
+test
+---
+[test](https://mdecadp2018.github.io/finalproject-ag4/finalreport/markdown/images/vrep/skeleton8.png )![Final](./images/vrep/skeleton8.png ){width=450px height=450px}
+
+嘗試添加噴頭並測試噴射填料，利用檔案中的air jet模擬，設定好位置後於程式碼中調整模擬噴料口徑及利用Script Parameter設定噴料粒子大小、初速、數量、存留時間等等後，將PassivePart設為運動反應物件。
+
+[test2](https://mdecadp2018.github.io/finalproject-ag4/finalreport/markdown/images/vrep/skeleton9.png )![Final](./images/vrep/skeleton9.png ){width=450px height=450px}
+
+就能測試是否能作動，目前卡在程式碼編寫粒子堆疊的編寫，嘗試將simCreateStack寫入並設定。
+
+[particlestack](http://www.coppeliarobotics.com/helpFiles/en/regularApi/simCreateStack.htm )![Final](./images/vrep/particlestack.png ){width=450px height=450px}
+
+----
 </t>
 <t tx="yen.20170429103742.1"></t>
 <t tx="yen.20170429103940.1"></t>

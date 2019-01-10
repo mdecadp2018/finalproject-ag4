@@ -40,7 +40,7 @@
 <v t="leo.20181213214057.1"><vh>張華倞</vh>
 <v t="leo.20181213214057.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181213214059.1"><vh>陳鉅忠</vh>
+<v t="leo.20181213214059.1" a="E"><vh>陳鉅忠</vh>
 <v t="leo.20181213214059.2"><vh>內容</vh></v>
 </v>
 <v t="leo.20181213214104.1"><vh>黃馨慧</vh>
@@ -63,7 +63,7 @@
 <v t="leo.20181213215941.10"><vh>張華倞</vh>
 <v t="leo.20181213215941.11"><vh>內容</vh></v>
 </v>
-<v t="leo.20181213215941.12"><vh>陳鉅忠</vh>
+<v t="leo.20181213215941.12" a="E"><vh>陳鉅忠</vh>
 <v t="leo.20181213215941.13"><vh>內容</vh></v>
 </v>
 <v t="leo.20181213215941.14" a="E"><vh>黃馨慧</vh>
@@ -103,7 +103,7 @@
 <v t="leo.20181224194206.6"><vh>葉修宏</vh>
 <v t="leo.20181224194206.7"><vh>內容</vh></v>
 </v>
-<v t="leo.20181224194206.8"><vh>張育偉</vh>
+<v t="leo.20181224194206.8" a="E"><vh>張育偉</vh>
 <v t="leo.20181224194206.9"><vh>內容</vh></v>
 </v>
 <v t="leo.20181224194206.10"><vh>張華倞</vh>
@@ -126,13 +126,13 @@
 <v t="leo.20190104115337.6"><vh>葉修宏</vh>
 <v t="leo.20190104115337.7"><vh>內容</vh></v>
 </v>
-<v t="leo.20190104115337.8"><vh>張育偉</vh>
+<v t="leo.20190104115337.8" a="E"><vh>張育偉</vh>
 <v t="leo.20190104115337.9"><vh>內容</vh></v>
 </v>
 <v t="leo.20190104115337.10"><vh>張華倞</vh>
 <v t="leo.20190104115337.11"><vh>內容</vh></v>
 </v>
-<v t="leo.20190104115337.12"><vh>陳鉅忠</vh>
+<v t="leo.20190104115337.12" a="E"><vh>陳鉅忠</vh>
 <v t="leo.20190104115337.13"><vh>內容</vh></v>
 </v>
 <v t="leo.20190104115337.14" a="E"><vh>黃馨慧</vh>
@@ -556,7 +556,7 @@ make.start()
 </t>
 <t tx="leo.20181213214059.2">## 40623130 陳鉅忠
 
-* [研究V-rep的使用](https://mdecadp2018.github.io/finalproject-ag4/content/Test-1.html)
+ [研究V-rep的使用](https://mdecadp2018.github.io/finalproject-ag4/content/Test-1.html)
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/RW_sTVG44eI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -614,7 +614,7 @@ make.start()
 </t>
 <t tx="leo.20181213215941.13">## 40623130 陳鉅忠
 
-* [研究V-rep的使用](https://mdecadp2018.github.io/finalproject-ag4/content/Test-2.html)
+ [研究V-rep的使用](https://mdecadp2018.github.io/finalproject-ag4/content/Test-2.html)
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/YjV-fOLij8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -1111,7 +1111,7 @@ FeatuseScript編寫練習
 </t>
 <t tx="leo.20190104115337.9">## 40623127 張育偉
 
-* [新腳輪](https://youtu.be/ToWMaRZGqdA)
+* [光軸固定件](https://youtu.be/ToWMaRZGqdA)
 
 [回頂頁](./index2.html#/5)
 </t>
