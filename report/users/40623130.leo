@@ -31,9 +31,6 @@
 <v t="leo.20190106201247.2"><vh>@clean printer_view.md</vh></v>
 <v t="leo.20190106201247.3"><vh>@clean v_rep.md</vh></v>
 <v t="leo.20190106201247.1"><vh>@clean featurescript.md</vh></v>
-<v t="yen.20170429220335.1" a="E"><vh>@clean onshape.md</vh>
-<v t="yen.20170429220335.2"><vh>FeatureScript</vh></v>
-</v>
 </v>
 </v>
 </v>
@@ -415,6 +412,19 @@ Final-step
 
 ---
 
+test
+---
+[test](https://mdecadp2018.github.io/finalproject-ag4/finalreport/markdown/images/vrep/skeleton8.png )![Final](./images/vrep/skeleton8.png ){width=450px height=450px}
+
+嘗試添加噴頭並測試噴射填料，利用檔案中的air jet模擬，設定好位置後於程式碼中調整模擬噴料口徑及利用Script Parameter設定噴料粒子大小、初速、數量、存留時間等等後，將PassivePart設為運動反應物件。
+
+[test2](https://mdecadp2018.github.io/finalproject-ag4/finalreport/markdown/images/vrep/skeleton9.png )![Final](./images/vrep/skeleton9.png ){width=450px height=450px}
+
+就能測試是否能作動，目前卡在程式碼編寫粒子堆疊的編寫，嘗試將simCreateStack寫入並設定。
+
+[particlestack](http://www.coppeliarobotics.com/helpFiles/en/regularApi/simCreateStack.htm )![Final](./images/vrep/particlestack.png ){width=450px height=450px}
+
+----
 </t>
 <t tx="yen.20170429103742.1"></t>
 <t tx="yen.20170429103940.1"></t>
@@ -424,19 +434,5 @@ Final-step
 
 除非必要否則不更動 markdown 目錄下的 template.tex 檔案</t>
 <t tx="yen.20170429214845.1"></t>
-<t tx="yen.20170429220335.1">OnShape
-===
-
-OnShape 的概要
-
-@others
-</t>
-<t tx="yen.20170429220335.2">FeatureScript
----
-
-FeatureScript 的內容
-
-
-</t>
 </tnodes>
 </leo_file>
