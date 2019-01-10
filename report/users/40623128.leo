@@ -27,8 +27,8 @@
 <v t="leo.20171119234822.1" a="E"><vh>各章節內容</vh>
 <v t="yen.20170429214845.1" a="E"><vh>@path paragraph</vh>
 <v t="leo.20190106201047.1"><vh>@clean introduction.md</vh></v>
-<v t="leo.20190106201142.1"><vh>@clean printer_material.md</vh></v>
 <v t="leo.20190106201247.2"><vh>@clean printer_view.md</vh></v>
+<v t="leo.20190106201142.1"><vh>@clean printer_material.md</vh></v>
 <v t="leo.20190106201247.3"><vh>@clean v_rep.md</vh></v>
 <v t="leo.20190106201247.1"><vh>@clean featurescript.md</vh></v>
 <v t="yen.20170429220335.1" a="E"><vh>@clean onshape.md</vh>
@@ -72,8 +72,8 @@ chapter_list = " ".join("./paragraph/" + i for i in [
 #"github.md", 
 #"fossil.md", 
 "introduction.md", 
-"printer_material.md", 
 "printer_view.md", 
+"printer_material.md", 
 "v_rep.md", 
 "featurescript.md",
 #"onshape.md", 
@@ -216,34 +216,21 @@ abstract: |
 <t tx="leo.20190106201142.1">列印機使用材料
 ===
 
-列印機使用材料介紹
+Table: 使用材料表 {#tbl:材料表}
 
 
-腳輪:[https://tw.misumi-ec.com/vona2/detail/110300477340/?CategorySpec=00000289437%3a%3ab](https://tw.misumi-ec.com/vona2/detail/110300477340/?CategorySpec=00000289437%3a%3ab)
+|   材料名稱   |                                                                                                                          超連結                                                                                                                          |
+|:------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|     腳輪     |                                                                                                [連結](https://tw.misumi-ec.com/vona2/detail/110300511370/)                                                                                               |
+|    螺母座    |                           [連結](https://detail.1688.com/offer/571855775654.html?spm=a261b.8768355.pic-list.2.1e3d3497zPcLbw&amp;tracelog=p4p&amp;clickid=139b6690be264b53b021d52477db9963&amp;sessionid=9118ee9464b334d9b43d53e1dad425dc)                           |
+| 42部馬達支架 |                                                                              [連結](https://world.taobao.com/item/565887733989.htm?spm=a21wu.10013406-tw.0.0.5ddfd7fcv0k9Tl)                                                                             |
+|   光軸滑塊   |                                                                              [連結](https://world.taobao.com/item/14495101210.htm?spm=a21wu.10013406-tw.0.0.5df37e2bIirEth)                                                                              |
+|     噴頭     |                             [連結1](https://world.taobao.com/item/560317882313.htm?spm=a21wu.10013406-tw.0.0.1da65c76OUnpUi)[連結2](https://world.taobao.com/item/520431331861.htm?spm=a21wu.10013406-tw.0.0.1da65c76OUnpUi)                             |
+|     噴嘴     | [連結](https://item.taobao.com/item.htm?id=527963597624&amp;ali_refid=a3_430750_1006:1122639050:N:3d%E6%89%93%E5%8D%B0%E6%9C%BA%E5%96%B7%E5%98%B4:0cb031b1a129ead4961146ee1ff7099b&amp;ali_trackid=1_0cb031b1a129ead4961146ee1ff7099b&amp;spm=a21wu.10013406-tw.0.0) |
+|     風扇     |                                    [連結](https://tw.bid.yahoo.com/item/%E3%80%90%E5%85%A8%E5%86%A0%E3%80%91ADDA-9-2%E5%85%AC%E5%88%86%E9%A2%A8%E6%89%87-9-2-9-2-3-8%E5%85%AC%E5%88%8624V0-7A-2%E7%B7%9A-100518089635)                                   |
+|    同步輪    |                 [連結1](http://www.ciguang.com/productsd/tid14/pid59.html)[連結2](https://item.taobao.com/item.htm?id=7088047896&amp;scm=20140651.199.TW.973002450_7088047896&amp;gclid=EAIaIQobChMIyOLR8Kue3wIV2qmWCh3gHAHUEAQYASABEgIT_PD_BwE)                 |
+|     軸座     |                                                                              [連結](https://world.taobao.com/item/521011557898.htm?spm=a21wu.10013406-tw.0.0.572c2d3e6k8ZWK)                                                                             |
 
-螺母座:[https://detail.1688.com/offer/571855775654.html?spm=a261b.8768355.pic-list.2.1e3d3497zPcLbw&amp;tracelog=p4p&amp;clickid=139b6690be264b53b021d52477db9963&amp;sessionid=9118ee9464b334d9b43d53e1dad425dc](https://detail.1688.com/offer/571855775654.html?spm=a261b.8768355.pic-list.2.1e3d3497zPcLbw&amp;tracelog=p4p&amp;clickid=139b6690be264b53b021d52477db9963&amp;sessionid=9118ee9464b334d9b43d53e1dad425dc)
-
-42部馬達支架:[https://world.taobao.com/item/565887733989.htm?spm=a21wu.10013406-tw.0.0.5ddfd7fcv0k9Tl](https://world.taobao.com/item/565887733989.htm?spm=a21wu.10013406-tw.0.0.5ddfd7fcv0k9Tl)
-
-新 - 腳輪:[https://tw.misumi-ec.com/vona2/detail/110300511370/](https://tw.misumi-ec.com/vona2/detail/110300511370/)
-
-光軸滑塊:[https://world.taobao.com/item/14495101210.htm?spm=a21wu.10013406-tw.0.0.5df37e2bIirEth](https://world.taobao.com/item/14495101210.htm?spm=a21wu.10013406-tw.0.0.5df37e2bIirEth)
-
-噴頭:[https://world.taobao.com/item/560317882313.htm?spm=a21wu.10013406-tw.0.0.1da65c76OUnpUi](https://world.taobao.com/item/560317882313.htm?spm=a21wu.10013406-tw.0.0.1da65c76OUnpUi)
-
-[https://world.taobao.com/item/520431331861.htm?spm=a21wu.10013406-tw.0.0.1da65c76OUnpUi](https://world.taobao.com/item/520431331861.htm?spm=a21wu.10013406-tw.0.0.1da65c76OUnpUi)
-
-噴嘴:[https://item.taobao.com/item.htm?id=527963597624&amp;ali_refid=a3_430750_1006:1122639050:N:3d%E6%89%93%E5%8D%B0%E6%9C%BA%E5%96%B7%E5%98%B4:0cb031b1a129ead4961146ee1ff7099b&amp;ali_trackid=1_0cb031b1a129ead4961146ee1ff7099b&amp;spm=a21wu.10013406-tw.0.0](https://item.taobao.com/item.htm?id=527963597624&amp;ali_refid=a3_430750_1006:1122639050:N:3d%E6%89%93%E5%8D%B0%E6%9C%BA%E5%96%B7%E5%98%B4:0cb031b1a129ead4961146ee1ff7099b&amp;ali_trackid=1_0cb031b1a129ead4961146ee1ff7099b&amp;spm=a21wu.10013406-tw.0.0)
-
-惰輪固定座:[https://goods.ruten.com.tw/item/show?21613312248418#info](https://goods.ruten.com.tw/item/show?21613312248418#info)
-
-風扇:[https://tw.bid.yahoo.com/item/%E3%80%90%E5%85%A8%E5%86%A0%E3%80%91ADDA-9-2%E5%85%AC%E5%88%86%E9%A2%A8%E6%89%87-9-2-9-2-3-8%E5%85%AC%E5%88%8624V0-7A-2%E7%B7%9A-100518089635](https://tw.bid.yahoo.com/item/%E3%80%90%E5%85%A8%E5%86%A0%E3%80%91ADDA-9-2%E5%85%AC%E5%88%86%E9%A2%A8%E6%89%87-9-2-9-2-3-8%E5%85%AC%E5%88%8624V0-7A-2%E7%B7%9A-100518089635)
-
-同步輪:[http://www.ciguang.com/productsd/tid14/pid59.html](http://www.ciguang.com/productsd/tid14/pid59.html)
-
-[https://item.taobao.com/item.htm?id=7088047896&amp;scm=20140651.199.TW.973002450_7088047896&amp;gclid=EAIaIQobChMIyOLR8Kue3wIV2qmWCh3gHAHUEAQYASABEgIT_PD_BwE](https://item.taobao.com/item.htm?id=7088047896&amp;scm=20140651.199.TW.973002450_7088047896&amp;gclid=EAIaIQobChMIyOLR8Kue3wIV2qmWCh3gHAHUEAQYASABEgIT_PD_BwE)
-
-軸座:[https://world.taobao.com/item/521011557898.htm?spm=a21wu.10013406-tw.0.0.572c2d3e6k8ZWK](https://world.taobao.com/item/521011557898.htm?spm=a21wu.10013406-tw.0.0.572c2d3e6k8ZWK)
 
 
 
@@ -353,7 +340,9 @@ abstract: |
 <t tx="leo.20190106201247.2">列印機外觀
 ===
 
-列印機外觀
+![列印機外觀][printer]
+
+[printer]: ./images/3d-printer/01.png {#fig:駱駝}
 
 </t>
 <t tx="leo.20190106201247.3"> V-rep模擬
@@ -437,10 +426,14 @@ Final-step
 
 OnShape 的概要
 
-@others</t>
+@others
+</t>
 <t tx="yen.20170429220335.2">FeatureScript
 ---
 
-FeatureScript 的內容</t>
+FeatureScript 的內容
+
+
+</t>
 </tnodes>
 </leo_file>
