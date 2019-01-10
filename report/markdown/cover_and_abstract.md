@@ -12,18 +12,20 @@ author:
 - 設計二甲 40623130 陳鉅忠 
 - 設計二甲 40623154 黃馨慧 
 advisor_zh: '嚴家銘'
-date: '20190106'
+date: '20190110'
 ---
 
 ---
 abstract: |
+    列印機外觀
+    
     列印機使用材料
     
-    列印機外觀介紹
+    V-rep模擬的設定過程
     
-    V-rep模擬
+    V-rep python remote api編寫過程
     
-    Onshape自訂義功能
+    Onshape自訂義功能練習過程
     
 ---
 
