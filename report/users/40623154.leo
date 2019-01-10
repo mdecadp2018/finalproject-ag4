@@ -106,7 +106,7 @@ author:
 - 設計二甲 40623130 陳鉅忠 
 - 設計二甲 40623154 黃馨慧 
 advisor_zh: '嚴家銘'
-date: '20190106'
+date: '20190110'
 ---
 
 @others
@@ -188,13 +188,15 @@ QLineEdit#editorLabel {
 vertical: body pane on the botton</t>
 <t tx="ahshoe.20170317115820.1">---
 abstract: |
+    列印機外觀
+    
     列印機使用材料
     
-    列印機外觀介紹
+    V-rep模擬的設定過程
     
-    V-rep模擬
+    V-rep python remote api編寫過程
     
-    Onshape自訂義功能
+    Onshape自訂義功能練習過程
     
 ---
 
@@ -230,8 +232,8 @@ Table: 使用材料表 {#tbl:材料表}
 |     風扇     |                                    [連結](https://tw.bid.yahoo.com/item/%E3%80%90%E5%85%A8%E5%86%A0%E3%80%91ADDA-9-2%E5%85%AC%E5%88%86%E9%A2%A8%E6%89%87-9-2-9-2-3-8%E5%85%AC%E5%88%8624V0-7A-2%E7%B7%9A-100518089635)                                   |
 |    同步輪    |                 [連結1](http://www.ciguang.com/productsd/tid14/pid59.html)[連結2](https://item.taobao.com/item.htm?id=7088047896&amp;scm=20140651.199.TW.973002450_7088047896&amp;gclid=EAIaIQobChMIyOLR8Kue3wIV2qmWCh3gHAHUEAQYASABEgIT_PD_BwE)                 |
 |     軸座     |                                                                              [連結](https://world.taobao.com/item/521011557898.htm?spm=a21wu.10013406-tw.0.0.572c2d3e6k8ZWK)                                                                             |
-|     線性滑塊     |                                                                              [連結](https://tw.misumi-ec.com/vona2/detail/110302734840/)                                                                            [連結](https://tw.misumi-ec.com/pdf/fa/2015/p1_597.pdf)                                                                             |
-|     光軸固定座     |                                                                              [連結](https://tw.misumi-ec.com/vona2/detail/110300013850/?HissuCode=SHF16)                                                                            [連結](https://tw.misumi-ec.com/pdf/fa/2015/p1_275.pdf)                                                                             |
+|     線性滑塊     |                                                                              [連結1](https://tw.misumi-ec.com/vona2/detail/110302734840/)                                                                            [連結2](https://tw.misumi-ec.com/pdf/fa/2015/p1_597.pdf)                                                                             |
+|     光軸固定座     |                                                                              [連結1](https://tw.misumi-ec.com/vona2/detail/110300013850/?HissuCode=SHF16)                                                                            [連結2](https://tw.misumi-ec.com/pdf/fa/2015/p1_275.pdf)                                                                             |
 |     惰輪2GT     |                                                                              [連結](https://item.taobao.com/item.htm?id=7088047896&amp;scm=20140651.199.TW.973002450_7088047896&amp;gclid=EAIaIQobChMIyOLR8Kue3wIV2qmWCh3gHAHUEAQYASABEgIT_PD_BwE&amp;fbclid=IwAR1U1ltAM9fe_vtsuLzE6tUAKzem5GaqVjzFAY6iXQcYTL4eR3hgLq7a5Co)                                                                             |
 
 
@@ -250,7 +252,7 @@ Table: 使用材料表 {#tbl:材料表}
 ---
 
 在零件圖功能區的最右端處點選即可使用。
-如圖5.1
+如圖6.1
 
 ![自訂義功能使用位置][pyqt5]
 
@@ -264,7 +266,7 @@ Table: 使用材料表 {#tbl:材料表}
 先開起任意一個圖檔，
 
 於左下角加號處開啟。
-如圖5.2
+如圖6.2
 
 ![新的Feature studio開啟位置][001]
 
@@ -274,49 +276,49 @@ Table: 使用材料表 {#tbl:材料表}
 ---
 
 快捷指令列。
-如圖5.3
+如圖6.3
 
 ![快捷指令列][002]
 
 [002]: ./images/FeatureScript/快捷.png  {#fig:駱駝}
 
 首先使用第一個New Feature建立新的特徵。
-如圖5.4
+如圖6.4
 
 ![新的特徵][003]
 
 [003]: ./images/FeatureScript/新增特徵.png  {#fig:駱駝}
 
 功能主要是建立一個特徵功能的架構如下圖。
-如圖5.5
+如圖6.5
 
 ![特徵格式][004]
 
 [004]: ./images/FeatureScript/特徵格式.png  {#fig:駱駝}
 
 可以藉由輸入程式於下圖紅框處，製作表單與繪畫功能。
-如圖5.6
+如圖6.6
 
 ![特徵編輯內容][005]
 
 [005]: ./images/FeatureScript/特徵編輯.png  {#fig:駱駝}
 
 建立表單的各項輸入項目，可以於下圖位置點選所需項目。
-如圖5.7
+如圖6.7
 
 ![插入表單][006]
 
 [006]: ./images/FeatureScript/表單功能1.png  {#fig:駱駝}
 
 舉例如下圖使用第一個長度參數。
-如圖5.8
+如圖6.8
 
 ![Length][007]
 
 [007]: ./images/FeatureScript/Length.png  {#fig:駱駝} 
 
 使用該功能就會出現長度輸入欄。
-如圖5.9
+如圖6.9
 
 ![長度表單][008]
 
@@ -326,7 +328,7 @@ Table: 使用材料表 {#tbl:材料表}
 自製繪圖功能練習
 ---
 
-成果圖:如圖5.10
+成果圖:如圖6.10
 
 ![星星練習成果][009]
 
