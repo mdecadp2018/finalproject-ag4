@@ -236,7 +236,11 @@ Table: 使用材料表 {#tbl:材料表}
 |     線性滑塊     |                                                                              [連結1](https://tw.misumi-ec.com/vona2/detail/110302734840/)                                                                            [連結2](https://tw.misumi-ec.com/pdf/fa/2015/p1_597.pdf)                                                                             |
 |     光軸固定座     |                                                                              [連結1](https://tw.misumi-ec.com/vona2/detail/110300013850/?HissuCode=SHF16)                                                                            [連結2](https://tw.misumi-ec.com/pdf/fa/2015/p1_275.pdf)                                                                             |
 |     惰輪2GT     |                                                                              [連結](https://item.taobao.com/item.htm?id=7088047896&amp;scm=20140651.199.TW.973002450_7088047896&amp;gclid=EAIaIQobChMIyOLR8Kue3wIV2qmWCh3gHAHUEAQYASABEgIT_PD_BwE&amp;fbclid=IwAR1U1ltAM9fe_vtsuLzE6tUAKzem5GaqVjzFAY6iXQcYTL4eR3hgLq7a5Co)                                                                             |
-
+|     鋁擠型       |                                                                              [連結](https://tw.misumi-ec.com/vona2/detail/110302686450/)                                                                            
+|
+|     直角連接件       |                                                                              [連結](https://tw.misumi-ec.com/vona2/detail/110300442860/)                                                                            
+|
+|     機鋁座       |                                                                              [連結](https://tw.bid.yahoo.com/item/%E3%80%90%E5%89%B5%E6%84%8F3D%E5%88%97%E5%8D%B0%E3%80%91MK8%E6%93%A0%E5%87%BA%E6%A9%9F%E9%8B%81%E5%BA%A7DIY%E9%85%8D%E4%BB%B6%E5%96%AE%E5%99%B4%E9%A0%AD%E6%93%A0%E5%87%BA%E6%A9%9F%E6%94%AF%E6%9E%B6-100431221165)                                                                            
 
 
 
