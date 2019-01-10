@@ -24,7 +24,7 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181213213640.1"><vh>20181207</vh>
+<v t="leo.20181213213640.1" a="E"><vh>20181207</vh>
 <v t="leo.20181213213640.2"><vh>簡介</vh>
 <v t="leo.20181213213640.3"><vh>內容</vh></v>
 </v>
@@ -43,11 +43,11 @@
 <v t="leo.20181213214059.1"><vh>陳鉅忠</vh>
 <v t="leo.20181213214059.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181213214104.1" a="E"><vh>黃馨慧</vh>
+<v t="leo.20181213214104.1"><vh>黃馨慧</vh>
 <v t="leo.20181213214104.2"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20181213215941.1" a="E"><vh>20181214</vh>
+<v t="leo.20181213215941.1"><vh>20181214</vh>
 <v t="leo.20181213215941.2"><vh>簡介</vh>
 <v t="leo.20181213215941.3"><vh>內容</vh></v>
 </v>
@@ -112,7 +112,7 @@
 <v t="leo.20181224194206.12"><vh>陳鉅忠</vh>
 <v t="leo.20181224194206.13"><vh>內容</vh></v>
 </v>
-<v t="leo.20181224194206.14"><vh>黃馨慧</vh>
+<v t="leo.20181224194206.14" a="E"><vh>黃馨慧</vh>
 <v t="leo.20181224194206.15"><vh>內容</vh></v>
 </v>
 </v>
@@ -135,7 +135,7 @@
 <v t="leo.20190104115337.12"><vh>陳鉅忠</vh>
 <v t="leo.20190104115337.13"><vh>內容</vh></v>
 </v>
-<v t="leo.20190104115337.14"><vh>黃馨慧</vh>
+<v t="leo.20190104115337.14" a="E"><vh>黃馨慧</vh>
 <v t="leo.20190104115337.15"><vh>內容</vh></v>
 </v>
 </v>
@@ -571,7 +571,7 @@ make.start()
 
 * 利用Onshape繪製[3D列印機](https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/7d9c6197c4cc7d6fa00fd6eb)
 
-* [線性滑塊](https://www.youtube.com/watch?v=Pg50vbbxH-g&amp;t=763s)
+* [線性滑塊](https://youtu.be/Pg50vbbxH-g)
 
 [回頂頁](./index2.html#/1)
 </t>
@@ -626,9 +626,9 @@ make.start()
 </t>
 <t tx="leo.20181213215941.15">## 40623154 黃馨慧
 
-* [線材](https://www.youtube.com/watch?v=bN-CSaM9cWk&amp;t=127s)
+* [線材](https://youtu.be/bN-CSaM9cWk)
 
-* [套筒](https://www.youtube.com/watch?v=p9VlI9k3Dag&amp;t=3s)
+* [套筒](https://youtu.be/p9VlI9k3Dag)
 
 [回頂頁](./index2.html#/2)
 </t>
@@ -888,7 +888,7 @@ FeatuseScript編寫練習
 </t>
 <t tx="leo.20181224194206.15">## 40623154 黃馨慧
 
-
+* [惰輪2GT](https://youtu.be/Lz03HH2xNQo)
 
 [回頂頁](./index2.html#/4)
 </t>
@@ -1016,6 +1016,7 @@ FeatuseScript編寫練習
 </t>
 <t tx="leo.20190104115337.15">## 40623154 黃馨慧
 
+* [下馬達固定座](https://youtu.be/aATI8fJRzWQ)
 
 
 [回頂頁](./index2.html#/5)
