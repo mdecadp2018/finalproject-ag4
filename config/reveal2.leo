@@ -556,7 +556,7 @@ make.start()
 </t>
 <t tx="leo.20181213214059.2">## 40623130 陳鉅忠
 
- [研究V-rep的使用](https://mdecadp2018.github.io/finalproject-ag4/content/Test-1.html)
+[研究V-rep的使用](https://mdecadp2018.github.io/finalproject-ag4/content/Test-1.html)
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/RW_sTVG44eI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -614,7 +614,7 @@ make.start()
 </t>
 <t tx="leo.20181213215941.13">## 40623130 陳鉅忠
 
- [研究V-rep的使用](https://mdecadp2018.github.io/finalproject-ag4/content/Test-2.html)
+[研究V-rep的使用](https://mdecadp2018.github.io/finalproject-ag4/content/Test-2.html)
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/YjV-fOLij8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
