@@ -24,14 +24,14 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181213213640.1"><vh>20181207</vh>
+<v t="leo.20181213213640.1" a="E"><vh>20181207</vh>
 <v t="leo.20181213213640.2"><vh>簡介</vh>
 <v t="leo.20181213213640.3"><vh>內容</vh></v>
 </v>
-<v t="leo.20181213213640.4"><vh>李如芳</vh>
+<v t="leo.20181213213640.4" a="E"><vh>李如芳</vh>
 <v t="leo.20181213213640.5"><vh>內容</vh></v>
 </v>
-<v t="leo.20181213213640.6"><vh>葉修宏</vh>
+<v t="leo.20181213213640.6" a="E"><vh>葉修宏</vh>
 <v t="leo.20181213213640.7"><vh>內容</vh></v>
 </v>
 <v t="leo.20181213214055.1"><vh>張育偉</vh>
@@ -481,6 +481,11 @@ make.start()
 </t>
 <t tx="leo.20181213213640.5">## 40623109 李如芳
 * 利用Onshape繪製[3D列印機](https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/7d9c6197c4cc7d6fa00fd6eb)
+
+
+&lt;iframe width="200" height="150" src="https://www.youtube.com/embed/BVA7vscSEow" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe width="200" height="150" src="https://www.youtube.com/embed/zPXRH4G57so" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 [回頂頁](./index2.html#/1)
 </t>
