@@ -36,19 +36,25 @@
 <v t="leo.20190109133035.1" a="E"><vh>實行方法</vh>
 <v t="leo.20190109133035.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20190109134333.1" a="E"><vh>完成內容</vh>
-<v t="leo.20190109134333.2" a="E"><vh>第一頁</vh>
+<v t="leo.20190109134333.1"><vh>完成內容</vh>
+<v t="leo.20190109134333.2"><vh>第一頁</vh>
 <v t="leo.20190109134333.3"><vh>內容</vh></v>
 </v>
-<v t="leo.20190109134333.4" a="E"><vh>第二頁</vh>
+<v t="leo.20190109134333.4"><vh>第二頁</vh>
 <v t="leo.20190109134333.5"><vh>內容</vh></v>
 </v>
-<v t="leo.20190109134333.6" a="E"><vh>第三頁</vh>
+<v t="leo.20190109134333.6"><vh>第三頁</vh>
 <v t="leo.20190109134333.7"><vh>內容</vh></v>
 </v>
-<v t="leo.20190109134738.1" a="E"><vh>第四頁</vh>
+<v t="leo.20190109134738.1"><vh>第四頁</vh>
 <v t="leo.20190109134738.2"><vh>內容</vh></v>
 </v>
+</v>
+<v t="leo.20190110211232.1" a="E"><vh>各組員分工</vh>
+<v t="leo.20190110211232.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190110213152.1" a="E"><vh>pdf</vh>
+<v t="leo.20190110213152.2"><vh>內容</vh></v>
 </v>
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
@@ -157,7 +163,7 @@ vertical: body pane on the botton</t>
 ### 期末簡報
 
 &lt;small&gt;
-Created by [40623128](https://github.com/mdecadp2018/finalproject-ag4)
+Created by [40623128](https://github.com/mdecadp2018/finalproject-ag4) [40623124](https://github.com/mdecadp2018/finalproject-ag4)
 &lt;/small&gt;
 
 [網站](https://mdecadp2018.github.io/finalproject-ag4/content/index.html)
@@ -365,7 +371,7 @@ make.start()
 </t>
 <t tx="leo.20181207111911.2"># 組員名單
 
-* [40623109 李如芳](https://mdecadp2018.github.io/site-40623109/content/index.html) - Onshape繪製及修改零件不合尺寸
+* [40623109 李如芳](https://mdecadp2018.github.io/site-40623109/content/index.html) - Onshape繪製及修改零件
 * [40623124 葉修宏](https://mdecadp2018.github.io/site-40623124/content/index.html) - Onshape繪製及修改零件
 * [40623127 張育偉](https://mdecadp2018.github.io/site-40623127/content/index.html) - Onshape繪製零組件及組裝
 * [40623128 張華倞](https://mdecadp2018.github.io/site-40623128/content/index.html) - FeatureScript研究整理和各項除錯
@@ -425,9 +431,9 @@ make.start()
 </t>
 <t tx="leo.20190109133035.2">## 實行方法
 
-以下圖為架構繪製列印機檔案
+以下圖為架構繪製列印機模型
 
-所有零件皆由列印件或網路上即可買到的材料繪製並組裝
+所有零件皆由列印件或網路上即可買到的材料繪製
 
 &lt;img src="image/kll3pp.jpg" alt="xyz" title="xyz列印機" width="250px;"&gt;
 
@@ -504,5 +510,32 @@ make.start()
 
 
 </t>
+<t tx="leo.20190110211232.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190110211232.2">## 各組員各週工作紀錄
+
+[投影片](https://mdecadp2018.github.io/finalproject-ag4/reveal/index2.html)
+</t>
+<t tx="leo.20190110213152.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190110213152.2">## pdf版次紀錄
+
+[舊pdf版次紀錄](https://github.com/mdecadp2018/finalproject-ag4/commits/53a538685a14125559b0e4175205f35560feeec0/finalreport/pdf/report.pdf)
+
+[新pdf版次紀錄](https://github.com/mdecadp2018/finalproject-ag4/commits/gh-pages/report/pdf)</t>
 </tnodes>
 </leo_file>
