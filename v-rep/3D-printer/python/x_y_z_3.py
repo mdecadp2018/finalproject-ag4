@@ -113,10 +113,10 @@ def JointGoPosition(x,y,z):
             setJointPositionz(-0.001, z_step)
 
 #回歸(0,0,0)
-setJointPositionO(0, 1)
+#setJointPositionO(0, 1)
 
 #移動座標(x,y,z)(增量座標)
-JointGoPosition(0,10,0)
+JointGoPosition(0,10,-10)
 
 
 '''
