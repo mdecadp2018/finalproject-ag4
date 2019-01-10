@@ -30,6 +30,7 @@
 <v t="leo.20190106201247.2"><vh>@clean printer_view.md</vh></v>
 <v t="leo.20190106201142.1"><vh>@clean printer_material.md</vh></v>
 <v t="leo.20190106201247.3"><vh>@clean v_rep.md</vh></v>
+<v t="leo.20190110193829.1"><vh>@clean v_rep_python_control.md</vh></v>
 <v t="leo.20190106201247.1"><vh>@clean featurescript.md</vh></v>
 <v t="yen.20170429220335.1" a="E"><vh>@clean onshape.md</vh>
 <v t="yen.20170429220335.2"><vh>FeatureScript</vh></v>
@@ -75,6 +76,7 @@ chapter_list = " ".join("./paragraph/" + i for i in [
 "printer_view.md", 
 "printer_material.md", 
 "v_rep.md", 
+"v_rep_python_control.md",
 "featurescript.md",
 #"onshape.md", 
 #"cmsimfly.md", 
@@ -106,7 +108,7 @@ author:
 - 設計二甲 40623130 陳鉅忠 
 - 設計二甲 40623154 黃馨慧 
 advisor_zh: '嚴家銘'
-date: '20190106'
+date: '20190110'
 ---
 
 @others
@@ -188,13 +190,15 @@ QLineEdit#editorLabel {
 vertical: body pane on the botton</t>
 <t tx="ahshoe.20170317115820.1">---
 abstract: |
+    列印機外觀
+    
     列印機使用材料
     
-    列印機外觀介紹
+    V-rep模擬的設定過程
     
-    V-rep模擬
+    V-rep python remote api編寫過程
     
-    Onshape自訂義功能
+    Onshape自訂義功能練習過程
     
 ---
 
@@ -250,7 +254,7 @@ Table: 使用材料表 {#tbl:材料表}
 ---
 
 在零件圖功能區的最右端處點選即可使用。
-如圖5.1
+如圖6.1
 
 ![自訂義功能使用位置][pyqt5]
 
@@ -264,7 +268,7 @@ Table: 使用材料表 {#tbl:材料表}
 先開起任意一個圖檔，
 
 於左下角加號處開啟。
-如圖5.2
+如圖6.2
 
 ![新的Feature studio開啟位置][001]
 
@@ -274,49 +278,49 @@ Table: 使用材料表 {#tbl:材料表}
 ---
 
 快捷指令列。
-如圖5.3
+如圖6.3
 
 ![快捷指令列][002]
 
 [002]: ./images/FeatureScript/快捷.png  {#fig:駱駝}
 
 首先使用第一個New Feature建立新的特徵。
-如圖5.4
+如圖6.4
 
 ![新的特徵][003]
 
 [003]: ./images/FeatureScript/新增特徵.png  {#fig:駱駝}
 
 功能主要是建立一個特徵功能的架構如下圖。
-如圖5.5
+如圖6.5
 
 ![特徵格式][004]
 
 [004]: ./images/FeatureScript/特徵格式.png  {#fig:駱駝}
 
 可以藉由輸入程式於下圖紅框處，製作表單與繪畫功能。
-如圖5.6
+如圖6.6
 
 ![特徵編輯內容][005]
 
 [005]: ./images/FeatureScript/特徵編輯.png  {#fig:駱駝}
 
 建立表單的各項輸入項目，可以於下圖位置點選所需項目。
-如圖5.7
+如圖6.7
 
 ![插入表單][006]
 
 [006]: ./images/FeatureScript/表單功能1.png  {#fig:駱駝}
 
 舉例如下圖使用第一個長度參數。
-如圖5.8
+如圖6.8
 
 ![Length][007]
 
 [007]: ./images/FeatureScript/Length.png  {#fig:駱駝} 
 
 使用該功能就會出現長度輸入欄。
-如圖5.9
+如圖6.9
 
 ![長度表單][008]
 
@@ -326,7 +330,7 @@ Table: 使用材料表 {#tbl:材料表}
 自製繪圖功能練習
 ---
 
-成果圖:如圖5.10
+成果圖:如圖6.10
 
 ![星星練習成果][009]
 
@@ -411,6 +415,50 @@ Final-step
 基本滑動模擬影片: [https://www.youtube.com/watch?v=V_GmofG5xhE](https://www.youtube.com/watch?v=V_GmofG5xhE) 
 
 ---
+
+</t>
+<t tx="leo.20190110193829.1"> V-rep python remote api
+===
+
+首先開始製作之前要先下載v-rep的python函式庫
+
+[下載連結](https://mdecadp2018.github.io/finalproject-ag4/v-rep/3D-printer/vrep_python.rar)
+
+再來只要在程式的一開始匯入程式庫即可使用相關函式
+
+[各函式功能連結](http://www.coppeliarobotics.com/helpFiles/en/remoteApiFunctionsPython.htm)
+
+程式架構
+
+首現定義三個函式，用來分別定義xyz的位置如圖5-1。
+
+![Function xyz-position][xyz-position]
+
+[xyz-position]: ./images/v-rep-python/xyz-position.png {#fig:駱駝}
+
+但發現無法從當前位置繼續移動，會直接順移回至原點，因此需要增加每次移動後的座標位置，所以使用圖5-2的函式獲得當前座標，並加入圖5-1的函式變為如圖5-3的函式。
+
+![Function get-xyz-position][get-xyz-position]
+
+[get-xyz-position]: ./images/v-rep-python/get-xyz-position.png {#fig:駱駝}
+
+![Function xyz-position-2][xyz-position-2]
+
+[xyz-position-2]: ./images/v-rep-python/xyz-position-2.png {#fig:駱駝}
+
+但每次移動都要更改輸入的函式太麻煩，所以在定義一個函式來藉由輸入座標進行移動如圖5-4。
+
+![Function xyz-move][xyz-move]
+
+[xyz-move]: ./images/v-rep-python/xyz-move.png {#fig:駱駝}
+
+但因為是利用for迴圈執行步數，單步行走0.001m，所以無法倒退，因此加入if函式來判定輸入的值是否小於零。如圖5-5，是判定xyz&gt;0與x&lt;0、yz&gt;0的狀況。
+
+![Function move-back][move-back]
+
+[move-back]: ./images/v-rep-python/move-back.png {#fig:駱駝}
+
+設定檔與程式檔下載:[點我](https://mdecadp2018.github.io/finalproject-ag4/v-rep/3D-printer/3d_printer_xyz_3.rar)
 
 </t>
 <t tx="yen.20170429103742.1"></t>
