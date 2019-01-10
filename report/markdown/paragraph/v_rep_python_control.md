@@ -11,7 +11,7 @@
 
 程式架構
 
-首現定義三個函式，用來分別定義xyz的位置如圖5-1。
+首先定義三個函式，用來分別定義xyz的位置如圖5-1。
 
 ![Function xyz-position][xyz-position]
 
