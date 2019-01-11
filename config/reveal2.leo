@@ -63,24 +63,24 @@
 <v t="leo.20181213215941.10"><vh>張華倞</vh>
 <v t="leo.20181213215941.11"><vh>內容</vh></v>
 </v>
-<v t="leo.20181213215941.12"><vh>陳鉅忠</vh>
+<v t="leo.20181213215941.12" a="E"><vh>陳鉅忠</vh>
 <v t="leo.20181213215941.13"><vh>內容</vh></v>
 </v>
-<v t="leo.20181213215941.14"><vh>黃馨慧</vh>
+<v t="leo.20181213215941.14" a="E"><vh>黃馨慧</vh>
 <v t="leo.20181213215941.15"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20181224194052.1"><vh>20181221</vh>
+<v t="leo.20181224194052.1" a="E"><vh>20181221</vh>
 <v t="leo.20181224194052.2"><vh>簡介</vh>
 <v t="leo.20181224194052.3"><vh>內容</vh></v>
 </v>
 <v t="leo.20181224194052.4"><vh>李如芳</vh>
 <v t="leo.20181224194052.5"><vh>內容</vh></v>
 </v>
-<v t="leo.20181224194052.6"><vh>葉修宏</vh>
+<v t="leo.20181224194052.6" a="E"><vh>葉修宏</vh>
 <v t="leo.20181224194052.7"><vh>內容</vh></v>
 </v>
-<v t="leo.20181224194052.8"><vh>張育偉</vh>
+<v t="leo.20181224194052.8" a="E"><vh>張育偉</vh>
 <v t="leo.20181224194052.9"><vh>內容</vh></v>
 </v>
 <v t="leo.20181224194052.10"><vh>張華倞</vh>
@@ -103,7 +103,7 @@
 <v t="leo.20181224194206.6"><vh>葉修宏</vh>
 <v t="leo.20181224194206.7"><vh>內容</vh></v>
 </v>
-<v t="leo.20181224194206.8"><vh>張育偉</vh>
+<v t="leo.20181224194206.8" a="E"><vh>張育偉</vh>
 <v t="leo.20181224194206.9"><vh>內容</vh></v>
 </v>
 <v t="leo.20181224194206.10"><vh>張華倞</vh>
@@ -116,7 +116,7 @@
 <v t="leo.20181224194206.15"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20190104115337.1" a="E"><vh>20180104</vh>
+<v t="leo.20190104115337.1"><vh>20180104</vh>
 <v t="leo.20190104115337.2"><vh>簡介</vh>
 <v t="leo.20190104115337.3"><vh>內容</vh></v>
 </v>
@@ -126,16 +126,16 @@
 <v t="leo.20190104115337.6"><vh>葉修宏</vh>
 <v t="leo.20190104115337.7"><vh>內容</vh></v>
 </v>
-<v t="leo.20190104115337.8"><vh>張育偉</vh>
+<v t="leo.20190104115337.8" a="E"><vh>張育偉</vh>
 <v t="leo.20190104115337.9"><vh>內容</vh></v>
 </v>
-<v t="leo.20190104115337.10" a="E"><vh>張華倞</vh>
+<v t="leo.20190104115337.10"><vh>張華倞</vh>
 <v t="leo.20190104115337.11"><vh>內容</vh></v>
 </v>
-<v t="leo.20190104115337.12"><vh>陳鉅忠</vh>
+<v t="leo.20190104115337.12" a="E"><vh>陳鉅忠</vh>
 <v t="leo.20190104115337.13"><vh>內容</vh></v>
 </v>
-<v t="leo.20190104115337.14"><vh>黃馨慧</vh>
+<v t="leo.20190104115337.14" a="E"><vh>黃馨慧</vh>
 <v t="leo.20190104115337.15"><vh>內容</vh></v>
 </v>
 </v>
@@ -472,68 +472,78 @@ make.start()
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
+
     &lt;/script&gt;
 &lt;/section&gt;
-
 
 
 						
 </t>
 <t tx="leo.20181213213640.5">## 40623109 李如芳
-* 利用Onshape繪製[3D列印機](https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/7d9c6197c4cc7d6fa00fd6eb)
+
+* 利用Onshape繪製 [3D列印機](https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/7d9c6197c4cc7d6fa00fd6eb) 零件
+
+惰輪固定座  /  光軸滑塊
+
+&lt;br&gt;&lt;iframe width="450" height="300" src="https://www.youtube.com/embed/zPXRH4G57so" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;                &lt;iframe width="450" height="300" src="https://www.youtube.com/embed/BVA7vscSEow" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
 
 [回頂頁](./index2.html#/1)
-</t>
-<t tx="leo.20181213213640.6">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
+
     &lt;/script&gt;
 &lt;/section&gt;
 
 
+
 						
-</t>
-<t tx="leo.20181213213640.7">## 40623124 葉修宏
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+## 40623124 葉修宏
 
 * 利用Onshape繪製[3D列印機](https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/7d9c6197c4cc7d6fa00fd6eb)
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/UhzY_snbIPM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 [回頂頁](./index2.html#/1)
-
 </t>
-<t tx="leo.20181213214055.1">&lt;section data-markdown&gt;
+<t tx="leo.20181213213640.6">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
-    &lt;/script&gt;
 &lt;/section&gt;
 
 
 						
+&lt;section data-markdown&gt;
 </t>
-<t tx="leo.20181213214055.2">## 40623127 張育偉
+<t tx="leo.20181213213640.7">## 40623127 張育偉
 
 * 利用Onshape繪製[3D列印機](https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/7d9c6197c4cc7d6fa00fd6eb)
 
+* [鋁擠型](https://www.youtube.com/watch?v=AgqEWDKttxw&amp;t=418s)
+
+
 [回頂頁](./index2.html#/1)
-</t>
-<t tx="leo.20181213214057.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
     &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
 </t>
-<t tx="leo.20181213214057.2">## 40623128 張華倞
-
+<t tx="leo.20181213214055.1">    &lt;script type="text/template"&gt;
+## 40623128 張華倞
+@others
+</t>
+<t tx="leo.20181213214055.2">
 * 利用pandoc製作[pdf](https://mdecadp2018.github.io/finalproject-ag4/finalreport/pdf/report.pdf)
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/LRsCbXrytPM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 [回頂頁](./index2.html#/1)
+</t>
+<t tx="leo.20181213214057.1">@others
+    &lt;/script&gt;
+&lt;/section&gt;
 
+
+						
+</t>
+<t tx="leo.20181213214057.2">
 </t>
 <t tx="leo.20181213214059.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -546,9 +556,9 @@ make.start()
 </t>
 <t tx="leo.20181213214059.2">## 40623130 陳鉅忠
 
-* [研究V-rep的使用](https://mdecadp2018.github.io/finalproject-ag4/content/Test-1.html)
+[研究V-rep的使用](https://mdecadp2018.github.io/finalproject-ag4/content/Test-1.html)
 
-&lt;iframe width="560" height="315" src="https://youtu.be/RW_sTVG44eI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/RW_sTVG44eI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 [回頂頁](./index2.html#/1)
 
@@ -565,6 +575,8 @@ make.start()
 <t tx="leo.20181213214104.2">## 40623154 黃馨慧
 
 * 利用Onshape繪製[3D列印機](https://cad.onshape.com/documents/84792bd1b9878b2081e6fa18/w/78e203b9d630dc6a62b7be58/e/7d9c6197c4cc7d6fa00fd6eb)
+
+線性滑塊
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Pg50vbbxH-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -602,9 +614,9 @@ make.start()
 </t>
 <t tx="leo.20181213215941.13">## 40623130 陳鉅忠
 
-* [研究V-rep的使用](https://mdecadp2018.github.io/finalproject-ag4/content/Test-2.html)
+[研究V-rep的使用](https://mdecadp2018.github.io/finalproject-ag4/content/Test-2.html)
 
-&lt;iframe width="560" height="315" src="https://youtu.be/YjV-fOLij8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/YjV-fOLij8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 [回頂頁](./index2.html#/2)
@@ -620,6 +632,11 @@ make.start()
 						
 </t>
 <t tx="leo.20181213215941.15">## 40623154 黃馨慧
+
+線材 / 套筒
+
+&lt;iframe width="450" height="300" src="https://www.youtube.com/embed/bN-CSaM9cWk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;　&lt;iframe width="450" height="300" src="https://www.youtube.com/embed/p9VlI9k3Dag" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
 
 
 
@@ -657,7 +674,9 @@ make.start()
 						
 </t>
 <t tx="leo.20181213215941.5">## 40623109 李如芳
-
+風扇  /  噴嘴、噴頭
+&lt;iframe width="450" height="300" src="https://www.youtube.com/embed/zOWfRNnM8JM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="450" height="300" src="https://www.youtube.com/embed/BfBl4K0-K2U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 [回頂頁](./index2.html#/2)
@@ -694,7 +713,7 @@ make.start()
 </t>
 <t tx="leo.20181213215941.9">## 40623127 張育偉
 
-
+* [直角連接件](https://www.youtube.com/watch?v=3397SAGjksc&amp;t=200s)
 
 [回頂頁](./index2.html#/2)
 </t>
@@ -733,9 +752,9 @@ make.start()
 </t>
 <t tx="leo.20181224194052.13">## 40623130 陳鉅忠
 
-* [研究V-rep的使用](https://mdecadp2018.github.io/finalproject-ag4/content/Test-2.html)
+[研究V-rep的使用](https://mdecadp2018.github.io/finalproject-ag4/content/Test-2.html)
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/watch?v=MS2IHEWyHTQ&amp;t=1s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/MS2IHEWyHTQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 [回頂頁](./index2.html#/3)
@@ -752,7 +771,9 @@ make.start()
 </t>
 <t tx="leo.20181224194052.15">## 40623154 黃馨慧
 
+光軸固定座
 
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/majIuWF4c8A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 [回頂頁](./index2.html#/3)
 </t>
@@ -788,8 +809,9 @@ make.start()
 						
 </t>
 <t tx="leo.20181224194052.5">## 40623109 李如芳
-
-
+同步輪  /  軸座
+&lt;iframe width="450" height="300" src="https://www.youtube.com/embed/f0beL-AnP2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="450" height="300" src="https://www.youtube.com/embed/IFgmqGuc6n4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 [回頂頁](./index2.html#/3)
 </t>
@@ -822,7 +844,7 @@ make.start()
 </t>
 <t tx="leo.20181224194052.9">## 40623127 張育偉
 
-
+* [馬達](https://www.youtube.com/watch?v=p0m6duFJ1P0)
 
 [回頂頁](./index2.html#/3)
 </t>
@@ -862,7 +884,9 @@ FeatuseScript編寫練習
 </t>
 <t tx="leo.20181224194206.13">## 40623130 陳鉅忠
 
-* [製作V-rep的機械手臂大綱簡報](https://mdecadp2018.github.io/finalproject-ag4/finalreport/pdf/report.pdf)
+[製作V-rep的機械手臂大綱簡報](https://mdecadp2018.github.io/finalproject-ag4/finalreport/pdf/report.pdf)
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/V_GmofG5xhE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 [參考PDF](http://www.coppeliarobotics.com/helpFiles/en/inverseKinematicsTutorial.htm)
 
@@ -880,6 +904,10 @@ FeatuseScript編寫練習
 						
 </t>
 <t tx="leo.20181224194206.15">## 40623154 黃馨慧
+
+惰輪2GT
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Lz03HH2xNQo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 
@@ -917,8 +945,8 @@ FeatuseScript編寫練習
 						
 </t>
 <t tx="leo.20181224194206.5">## 40623109 李如芳
-
-
+噴頭座
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/RRfvk_FgNe4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 [回頂頁](./index2.html#/4)
 </t>
@@ -951,7 +979,7 @@ FeatuseScript編寫練習
 </t>
 <t tx="leo.20181224194206.9">## 40623127 張育偉
 
-
+* [組合圖](https://youtu.be/0qXigKI2scI)
 
 [回頂頁](./index2.html#/4)
 </t>
@@ -989,9 +1017,9 @@ FeatuseScript編寫練習
 </t>
 <t tx="leo.20190104115337.13">## 40623130 陳鉅忠
 
-* [開始研究3D-printer_V-rep](https://mdecadp2018.github.io/finalproject-ag4/content/3D-Printer.html)
+[開始研究3D-printer_V-rep](https://mdecadp2018.github.io/finalproject-ag4/content/3D-Printer.html)
 
-&lt;iframe width="560" height="315" src="https://youtu.be/V_GmofG5xhE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/y7VNMXsW6Q4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 [檔案](https://mdecadp2018.github.io/finalproject-ag4/v-rep/3D-printer/skeleton-5.ttt)
 
@@ -1008,6 +1036,10 @@ FeatuseScript編寫練習
 						
 </t>
 <t tx="leo.20190104115337.15">## 40623154 黃馨慧
+
+下馬達固定座
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/aATI8fJRzWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 
@@ -1046,7 +1078,7 @@ FeatuseScript編寫練習
 </t>
 <t tx="leo.20190104115337.5">## 40623109 李如芳
 
-
+* 編排 pdf
 
 [回頂頁](./index2.html#/5)
 </t>
@@ -1079,7 +1111,7 @@ FeatuseScript編寫練習
 </t>
 <t tx="leo.20190104115337.9">## 40623127 張育偉
 
-
+* [光軸固定件](https://youtu.be/ToWMaRZGqdA)
 
 [回頂頁](./index2.html#/5)
 </t>

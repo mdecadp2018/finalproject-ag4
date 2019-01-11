@@ -31,9 +31,6 @@
 <v t="leo.20190106201247.2"><vh>@clean printer_view.md</vh></v>
 <v t="leo.20190106201247.3"><vh>@clean v_rep.md</vh></v>
 <v t="leo.20190106201247.1"><vh>@clean featurescript.md</vh></v>
-<v t="yen.20170429220335.1" a="E"><vh>@clean onshape.md</vh>
-<v t="yen.20170429220335.2"><vh>FeatureScript</vh></v>
-</v>
 </v>
 </v>
 </v>
@@ -72,9 +69,10 @@ chapter_list = " ".join("./paragraph/" + i for i in [
 #"github.md", 
 #"fossil.md", 
 "introduction.md", 
-"printer_material.md", 
 "printer_view.md", 
+"printer_material.md", 
 "v_rep.md", 
+"v_rep_python_control.md",
 "featurescript.md",
 #"onshape.md", 
 #"cmsimfly.md", 
@@ -106,7 +104,7 @@ author:
 - 設計二甲 40623130 陳鉅忠 
 - 設計二甲 40623154 黃馨慧 
 advisor_zh: '嚴家銘'
-date: '20190106'
+date: '20190110'
 ---
 
 @others
@@ -188,13 +186,15 @@ QLineEdit#editorLabel {
 vertical: body pane on the botton</t>
 <t tx="ahshoe.20170317115820.1">---
 abstract: |
+    列印機外觀
+    
     列印機使用材料
     
-    列印機外觀介紹
+    V-rep模擬的設定過程
     
-    V-rep模擬
+    V-rep python remote api編寫過程
     
-    Onshape自訂義功能
+    Onshape自訂義功能練習過程
     
 ---
 
@@ -216,37 +216,28 @@ abstract: |
 <t tx="leo.20190106201142.1">列印機使用材料
 ===
 
-列印機使用材料介紹
+Table: 使用材料表 {#tbl:材料表}
 
 
-腳輪:[https://tw.misumi-ec.com/vona2/detail/110300477340/?CategorySpec=00000289437%3a%3ab](https://tw.misumi-ec.com/vona2/detail/110300477340/?CategorySpec=00000289437%3a%3ab)
-
-螺母座:[https://detail.1688.com/offer/571855775654.html?spm=a261b.8768355.pic-list.2.1e3d3497zPcLbw&amp;tracelog=p4p&amp;clickid=139b6690be264b53b021d52477db9963&amp;sessionid=9118ee9464b334d9b43d53e1dad425dc](https://detail.1688.com/offer/571855775654.html?spm=a261b.8768355.pic-list.2.1e3d3497zPcLbw&amp;tracelog=p4p&amp;clickid=139b6690be264b53b021d52477db9963&amp;sessionid=9118ee9464b334d9b43d53e1dad425dc)
-
-42部馬達支架:[https://world.taobao.com/item/565887733989.htm?spm=a21wu.10013406-tw.0.0.5ddfd7fcv0k9Tl](https://world.taobao.com/item/565887733989.htm?spm=a21wu.10013406-tw.0.0.5ddfd7fcv0k9Tl)
-
-新 - 腳輪:[https://tw.misumi-ec.com/vona2/detail/110300511370/](https://tw.misumi-ec.com/vona2/detail/110300511370/)
-
-光軸滑塊:[https://world.taobao.com/item/14495101210.htm?spm=a21wu.10013406-tw.0.0.5df37e2bIirEth](https://world.taobao.com/item/14495101210.htm?spm=a21wu.10013406-tw.0.0.5df37e2bIirEth)
-
-噴頭:[https://world.taobao.com/item/560317882313.htm?spm=a21wu.10013406-tw.0.0.1da65c76OUnpUi](https://world.taobao.com/item/560317882313.htm?spm=a21wu.10013406-tw.0.0.1da65c76OUnpUi)
-
-[https://world.taobao.com/item/520431331861.htm?spm=a21wu.10013406-tw.0.0.1da65c76OUnpUi](https://world.taobao.com/item/520431331861.htm?spm=a21wu.10013406-tw.0.0.1da65c76OUnpUi)
-
-噴嘴:[https://item.taobao.com/item.htm?id=527963597624&amp;ali_refid=a3_430750_1006:1122639050:N:3d%E6%89%93%E5%8D%B0%E6%9C%BA%E5%96%B7%E5%98%B4:0cb031b1a129ead4961146ee1ff7099b&amp;ali_trackid=1_0cb031b1a129ead4961146ee1ff7099b&amp;spm=a21wu.10013406-tw.0.0](https://item.taobao.com/item.htm?id=527963597624&amp;ali_refid=a3_430750_1006:1122639050:N:3d%E6%89%93%E5%8D%B0%E6%9C%BA%E5%96%B7%E5%98%B4:0cb031b1a129ead4961146ee1ff7099b&amp;ali_trackid=1_0cb031b1a129ead4961146ee1ff7099b&amp;spm=a21wu.10013406-tw.0.0)
-
-惰輪固定座:[https://goods.ruten.com.tw/item/show?21613312248418#info](https://goods.ruten.com.tw/item/show?21613312248418#info)
-
-風扇:[https://tw.bid.yahoo.com/item/%E3%80%90%E5%85%A8%E5%86%A0%E3%80%91ADDA-9-2%E5%85%AC%E5%88%86%E9%A2%A8%E6%89%87-9-2-9-2-3-8%E5%85%AC%E5%88%8624V0-7A-2%E7%B7%9A-100518089635](https://tw.bid.yahoo.com/item/%E3%80%90%E5%85%A8%E5%86%A0%E3%80%91ADDA-9-2%E5%85%AC%E5%88%86%E9%A2%A8%E6%89%87-9-2-9-2-3-8%E5%85%AC%E5%88%8624V0-7A-2%E7%B7%9A-100518089635)
-
-同步輪:[http://www.ciguang.com/productsd/tid14/pid59.html](http://www.ciguang.com/productsd/tid14/pid59.html)
-
-[https://item.taobao.com/item.htm?id=7088047896&amp;scm=20140651.199.TW.973002450_7088047896&amp;gclid=EAIaIQobChMIyOLR8Kue3wIV2qmWCh3gHAHUEAQYASABEgIT_PD_BwE](https://item.taobao.com/item.htm?id=7088047896&amp;scm=20140651.199.TW.973002450_7088047896&amp;gclid=EAIaIQobChMIyOLR8Kue3wIV2qmWCh3gHAHUEAQYASABEgIT_PD_BwE)
-
-軸座:[https://world.taobao.com/item/521011557898.htm?spm=a21wu.10013406-tw.0.0.572c2d3e6k8ZWK](https://world.taobao.com/item/521011557898.htm?spm=a21wu.10013406-tw.0.0.572c2d3e6k8ZWK)
-
-
-
+|   材料名稱   |                                                                                                                          超連結                                                                                                                          |
+|:------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|     腳輪     |                                                                                                [連結](https://tw.misumi-ec.com/vona2/detail/110300511370/)                                                                                               |
+|    螺母座    |                           [連結](https://detail.1688.com/offer/571855775654.html?spm=a261b.8768355.pic-list.2.1e3d3497zPcLbw&amp;tracelog=p4p&amp;clickid=139b6690be264b53b021d52477db9963&amp;sessionid=9118ee9464b334d9b43d53e1dad425dc)                           |
+| 42部馬達支架 |                                                                              [連結](https://world.taobao.com/item/565887733989.htm?spm=a21wu.10013406-tw.0.0.5ddfd7fcv0k9Tl)                                                                             |
+|   光軸滑塊   |                                                                              [連結](https://world.taobao.com/item/14495101210.htm?spm=a21wu.10013406-tw.0.0.5df37e2bIirEth)                                                                              |
+|     噴頭     |                             [連結1](https://world.taobao.com/item/560317882313.htm?spm=a21wu.10013406-tw.0.0.1da65c76OUnpUi)[連結2](https://world.taobao.com/item/520431331861.htm?spm=a21wu.10013406-tw.0.0.1da65c76OUnpUi)                             |
+|     噴嘴     | [連結](https://item.taobao.com/item.htm?id=527963597624&amp;ali_refid=a3_430750_1006:1122639050:N:3d%E6%89%93%E5%8D%B0%E6%9C%BA%E5%96%B7%E5%98%B4:0cb031b1a129ead4961146ee1ff7099b&amp;ali_trackid=1_0cb031b1a129ead4961146ee1ff7099b&amp;spm=a21wu.10013406-tw.0.0) |
+|     風扇     |                                    [連結](https://tw.bid.yahoo.com/item/%E3%80%90%E5%85%A8%E5%86%A0%E3%80%91ADDA-9-2%E5%85%AC%E5%88%86%E9%A2%A8%E6%89%87-9-2-9-2-3-8%E5%85%AC%E5%88%8624V0-7A-2%E7%B7%9A-100518089635)                                   |
+|    同步輪    |                 [連結1](http://www.ciguang.com/productsd/tid14/pid59.html)[連結2](https://item.taobao.com/item.htm?id=7088047896&amp;scm=20140651.199.TW.973002450_7088047896&amp;gclid=EAIaIQobChMIyOLR8Kue3wIV2qmWCh3gHAHUEAQYASABEgIT_PD_BwE)                 |
+|     軸座     |                                                                              [連結](https://world.taobao.com/item/521011557898.htm?spm=a21wu.10013406-tw.0.0.572c2d3e6k8ZWK)                                                                             |
+|     線性滑塊     |                                                                              [連結1](https://tw.misumi-ec.com/vona2/detail/110302734840/)                                                                            [連結2](https://tw.misumi-ec.com/pdf/fa/2015/p1_597.pdf)                                                                             |
+|     光軸固定座     |                                                                              [連結1](https://tw.misumi-ec.com/vona2/detail/110300013850/?HissuCode=SHF16)                                                                            [連結2](https://tw.misumi-ec.com/pdf/fa/2015/p1_275.pdf)                                                                             |
+|     惰輪2GT     |                                                                              [連結](https://item.taobao.com/item.htm?id=7088047896&amp;scm=20140651.199.TW.973002450_7088047896&amp;gclid=EAIaIQobChMIyOLR8Kue3wIV2qmWCh3gHAHUEAQYASABEgIT_PD_BwE&amp;fbclid=IwAR1U1ltAM9fe_vtsuLzE6tUAKzem5GaqVjzFAY6iXQcYTL4eR3hgLq7a5Co)                                                                             |
+|     鋁擠型       |                                                                              [連結](https://tw.misumi-ec.com/vona2/detail/110302686450/)                                                                            
+|
+|     直角連接件       |                                                                              [連結](https://tw.misumi-ec.com/vona2/detail/110300442860/)                                                                            
+|
+|     機鋁座       |                                                                              [連結](https://tw.bid.yahoo.com/item/%E3%80%90%E5%89%B5%E6%84%8F3D%E5%88%97%E5%8D%B0%E3%80%91MK8%E6%93%A0%E5%87%BA%E6%A9%9F%E9%8B%81%E5%BA%A7DIY%E9%85%8D%E4%BB%B6%E5%96%AE%E5%99%B4%E9%A0%AD%E6%93%A0%E5%87%BA%E6%A9%9F%E6%94%AF%E6%9E%B6-100431221165)                                                                            
 
 
 
@@ -263,7 +254,7 @@ abstract: |
 ---
 
 在零件圖功能區的最右端處點選即可使用。
-如圖5.1
+如圖6.1
 
 ![自訂義功能使用位置][pyqt5]
 
@@ -277,7 +268,7 @@ abstract: |
 先開起任意一個圖檔，
 
 於左下角加號處開啟。
-如圖5.2
+如圖6.2
 
 ![新的Feature studio開啟位置][001]
 
@@ -287,49 +278,49 @@ abstract: |
 ---
 
 快捷指令列。
-如圖5.3
+如圖6.3
 
 ![快捷指令列][002]
 
 [002]: ./images/FeatureScript/快捷.png  {#fig:駱駝}
 
 首先使用第一個New Feature建立新的特徵。
-如圖5.4
+如圖6.4
 
 ![新的特徵][003]
 
 [003]: ./images/FeatureScript/新增特徵.png  {#fig:駱駝}
 
 功能主要是建立一個特徵功能的架構如下圖。
-如圖5.5
+如圖6.5
 
 ![特徵格式][004]
 
 [004]: ./images/FeatureScript/特徵格式.png  {#fig:駱駝}
 
 可以藉由輸入程式於下圖紅框處，製作表單與繪畫功能。
-如圖5.6
+如圖6.6
 
 ![特徵編輯內容][005]
 
 [005]: ./images/FeatureScript/特徵編輯.png  {#fig:駱駝}
 
 建立表單的各項輸入項目，可以於下圖位置點選所需項目。
-如圖5.7
+如圖6.7
 
 ![插入表單][006]
 
 [006]: ./images/FeatureScript/表單功能1.png  {#fig:駱駝}
 
 舉例如下圖使用第一個長度參數。
-如圖5.8
+如圖6.8
 
 ![Length][007]
 
 [007]: ./images/FeatureScript/Length.png  {#fig:駱駝} 
 
 使用該功能就會出現長度輸入欄。
-如圖5.9
+如圖6.9
 
 ![長度表單][008]
 
@@ -339,7 +330,7 @@ abstract: |
 自製繪圖功能練習
 ---
 
-成果圖:如圖5.10
+成果圖:如圖6.10
 
 ![星星練習成果][009]
 
@@ -353,7 +344,9 @@ abstract: |
 <t tx="leo.20190106201247.2">列印機外觀
 ===
 
-列印機外觀
+![列印機外觀][printer]
+
+[printer]: ./images/3d-printer/01.png {#fig:駱駝}
 
 </t>
 <t tx="leo.20190106201247.3"> V-rep模擬
@@ -423,6 +416,19 @@ Final-step
 
 ---
 
+test
+---
+[test](https://mdecadp2018.github.io/finalproject-ag4/finalreport/markdown/images/vrep/skeleton8.png )![Final](./images/vrep/skeleton8.png ){width=450px height=450px}
+
+嘗試添加噴頭並測試噴射填料，利用檔案中的air jet模擬，設定好位置後於程式碼中調整模擬噴料口徑及利用Script Parameter設定噴料粒子大小、初速、數量、存留時間等等後，將PassivePart設為運動反應物件。
+
+[test2](https://mdecadp2018.github.io/finalproject-ag4/finalreport/markdown/images/vrep/skeleton9.png )![Final](./images/vrep/skeleton9.png ){width=450px height=450px}
+
+就能測試是否能作動，目前卡在程式碼編寫粒子堆疊的編寫，嘗試將simCreateStack寫入並設定。
+
+[particlestack](http://www.coppeliarobotics.com/helpFiles/en/regularApi/simCreateStack.htm )![Final](./images/vrep/particlestack.png ){width=450px height=450px}
+
+----
 </t>
 <t tx="yen.20170429103742.1"></t>
 <t tx="yen.20170429103940.1"></t>
@@ -432,15 +438,5 @@ Final-step
 
 除非必要否則不更動 markdown 目錄下的 template.tex 檔案</t>
 <t tx="yen.20170429214845.1"></t>
-<t tx="yen.20170429220335.1">OnShape
-===
-
-OnShape 的概要
-
-@others</t>
-<t tx="yen.20170429220335.2">FeatureScript
----
-
-FeatureScript 的內容</t>
 </tnodes>
 </leo_file>
